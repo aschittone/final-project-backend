@@ -1,0 +1,2 @@
+class UserListing < ApplicationRecord
+end

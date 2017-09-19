@@ -1,8 +1,4 @@
 # README
-
-
-
-
 Base Outline:
 
 - pull listings from zillow to anylize
@@ -23,6 +19,10 @@ Listings (need to make fetch requests everytine "saved" section is loaded)
  - zip code 
 UserListings (listings that users save- join table)
 
+Models:
+
+Controllers:
+
 API:
 - zillow web services ID: X1-ZWz190zy8wb37v_4vl2o
 - need to convert xml to json in backend to use (no json option available from zillow)
@@ -35,6 +35,7 @@ MVP:
 
 Stretch Features:
 - Users will be able to save listings ot "track" them while they're on the market
+- add capability for seasoning rentals, or just different options
 
 
 
