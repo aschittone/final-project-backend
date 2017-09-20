@@ -591,3 +591,964 @@ Processing by Api::V1::ListingsController#get_listing as */*
 Completed 200 OK in 756ms (Views: 33.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-19 17:07:40 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 11834ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-19 17:09:12 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 2012ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/johann" for 127.0.0.1 at 2017-09-19 17:26:43 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"johann"}
+Completed 500 Internal Server Error in 1003ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:39:in `split_address'
+app/controllers/api/v1/listings_controller.rb:7:in `get_listing'
+Started GET "/api/v1/listings/johann" for 127.0.0.1 at 2017-09-19 17:27:58 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"johann"}
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:39:in `split_address'
+app/controllers/api/v1/listings_controller.rb:7:in `get_listing'
+Started GET "/api/v1/listings/1" for 127.0.0.1 at 2017-09-19 17:28:22 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1"}
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:39:in `split_address'
+app/controllers/api/v1/listings_controller.rb:7:in `get_listing'
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-19 17:28:32 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 2337ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-19 17:30:43 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1689ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-19 17:31:45 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1028ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-19 17:34:20 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 792ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-19 17:36:21 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 979ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-19 17:37:03 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 822ms (Views: 212.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-19 17:37:52 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1181ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-19 17:38:12 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 466ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-19 17:39:55 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 714ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-19 18:24:48 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 3930ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-19 18:26:07 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1340ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-09-20 09:15:06 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/listings/66%20huber%20palce,%20yonkers,%20ny" for 127.0.0.1 at 2017-09-20 09:17:23 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"66 huber palce, yonkers, ny"}
+Completed 500 Internal Server Error in 1670ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:10:in `get_listing'
+Started GET "/api/v1/listings/66%20Huber%20Pl,%20Yonkers,%20NY%2010704" for 127.0.0.1 at 2017-09-20 09:19:33 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"66 Huber Pl, Yonkers, NY 10704"}
+Completed 200 OK in 1477ms (Views: 272.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/66%20Huber%20Pl,%20Yonkers,%20NY" for 127.0.0.1 at 2017-09-20 09:21:46 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"66 Huber Pl, Yonkers, NY"}
+Completed 200 OK in 3325ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 09:59:07 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 1411ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 09:59:37 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 771ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 10:05:30 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 953ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:09:17 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 526ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:12:18 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1201ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:13:15 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 748ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:13:37 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1443ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:14:29 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 734ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:18:25 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1192ms (Views: 138.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:19:10 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 970ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:20:06 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 846ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:21:25 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1144ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 10:22:03 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 562ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:23:33 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1060ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:24:18 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 696ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:29:36 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1187ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:40:17 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 786ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:40:46 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 557ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:45:14 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 687ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:46:00 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 825ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:47:14 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1147ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:48:13 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1703ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:49:00 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 602ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:50:45 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 806ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:51:32 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 971ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:54:34 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1354ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:55:20 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 661ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:56:01 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1541ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:56:30 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 784ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:57:40 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 968ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 10:59:51 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1477ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 11:00:36 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1389ms (Views: 180.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 11:01:28 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 955ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 11:02:36 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 830ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 11:03:46 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1417ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 11:05:45 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 1105ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 11:07:54 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 837ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 11:47:07 -0400
+  [1m[35m (98.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 3084ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 11:48:45 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 689ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 11:50:23 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 496ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 11:52:55 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 537ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 11:55:14 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 326ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 13:02:15 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1086ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:06:39 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 500 Internal Server Error in 624ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (String can't be coerced into Fixnum):
+  
+app/controllers/api/v1/listings_controller.rb:24:in `+'
+app/controllers/api/v1/listings_controller.rb:24:in `block in get_sort_details'
+app/controllers/api/v1/listings_controller.rb:20:in `map'
+app/controllers/api/v1/listings_controller.rb:20:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:11:in `get_listing'
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:07:27 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 500 Internal Server Error in 177202ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (String can't be coerced into Fixnum):
+  
+app/controllers/api/v1/listings_controller.rb:25:in `+'
+app/controllers/api/v1/listings_controller.rb:25:in `block in get_sort_details'
+app/controllers/api/v1/listings_controller.rb:21:in `map'
+app/controllers/api/v1/listings_controller.rb:21:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:12:in `get_listing'
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 13:10:48 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 500 Internal Server Error in 3795ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `get_listing'
+app/controllers/api/v1/listings_controller.rb:12:in `get_listing'
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 13:11:04 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 500 Internal Server Error in 49129ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:17:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:12:in `get_listing'
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:12:09 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 500 Internal Server Error in 7117ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (String can't be coerced into Fixnum):
+  
+app/controllers/api/v1/listings_controller.rb:25:in `+'
+app/controllers/api/v1/listings_controller.rb:25:in `block in get_sort_details'
+app/controllers/api/v1/listings_controller.rb:21:in `map'
+app/controllers/api/v1/listings_controller.rb:21:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:12:in `get_listing'
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:12:36 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 500 Internal Server Error in 126243ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `get_listing'
+app/controllers/api/v1/listings_controller.rb:12:in `get_listing'
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:15:00 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 500 Internal Server Error in 37638ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (String can't be coerced into Fixnum):
+  
+app/controllers/api/v1/listings_controller.rb:26:in `+'
+app/controllers/api/v1/listings_controller.rb:26:in `block in get_sort_details'
+app/controllers/api/v1/listings_controller.rb:22:in `map'
+app/controllers/api/v1/listings_controller.rb:22:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:12:in `get_listing'
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:16:00 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 500 Internal Server Error in 106159ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `rescue in process_action'
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:18:58 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 500 Internal Server Error in 3703ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `sum' for #<Api::V1::ListingsController:0x007ff2e82b26f8>):
+  
+app/controllers/api/v1/listings_controller.rb:28:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:11:in `get_listing'
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:20:20 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 500 Internal Server Error in 64002ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `block in get_sort_details'
+app/controllers/api/v1/listings_controller.rb:25:in `block in get_sort_details'
+app/controllers/api/v1/listings_controller.rb:22:in `map'
+app/controllers/api/v1/listings_controller.rb:22:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:11:in `get_listing'
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:21:38 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 54336ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:28:10 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 500 Internal Server Error in 6883ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `block in get_sort_details'
+app/controllers/api/v1/listings_controller.rb:25:in `block in get_sort_details'
+app/controllers/api/v1/listings_controller.rb:22:in `map'
+app/controllers/api/v1/listings_controller.rb:22:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:11:in `get_listing'
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:28:30 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3457ms (Views: 184.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:28:59 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3367ms (Views: 177.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 13:33:08 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 3494ms (Views: 215.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 13:33:43 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 3336ms (Views: 220.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 13:35:58 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 3347ms (Views: 191.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:41:23 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3543ms (Views: 179.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:52:37 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3262ms (Views: 178.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:53:36 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3331ms (Views: 189.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:55:40 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3418ms (Views: 228.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 13:57:46 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3412ms (Views: 248.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 14:01:05 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3579ms (Views: 213.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 14:11:19 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3956ms (Views: 189.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 14:16:26 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 4532ms (Views: 249.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 14:19:12 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 4521ms (Views: 224.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 14:30:46 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 4670ms (Views: 246.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 14:31:47 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 4601ms (Views: 189.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 14:33:44 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 5394ms (Views: 245.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 14:36:59 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3238ms (Views: 176.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 14:40:26 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3204ms (Views: 175.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 14:52:47 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 2920ms (Views: 172.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 15:09:42 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3360ms (Views: 263.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 15:13:16 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 3483ms (Views: 168.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 15:13:47 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 3165ms (Views: 177.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 15:14:37 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 3334ms (Views: 186.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 15:16:07 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 3520ms (Views: 192.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:17:26 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 3950ms (Views: 214.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:20:30 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 6913ms (Views: 184.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:20:45 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 3982ms (Views: 185.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:21:16 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 3680ms (Views: 204.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:22:14 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 4226ms (Views: 187.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 15:25:07 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3249ms (Views: 177.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/701%20Ridge%20Hill%20Blvd%20UNIT%207N,%20Yonkers,%20NY%2010710" for 127.0.0.1 at 2017-09-20 15:26:15 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"701 Ridge Hill Blvd UNIT 7N, Yonkers, NY 10710"}
+Completed 200 OK in 3358ms (Views: 195.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/12%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:27:02 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"12 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 3520ms (Views: 185.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/Boulder%20II%20Plan,%20Vintage%20Park%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:29:25 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"Boulder II Plan, Vintage Park East Brunswick, NJ 08816"}
+Completed 500 Internal Server Error in 754ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:10:in `get_listing'
+Started GET "/api/v1/listings/68%20Church%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:30:19 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"68 Church Ln, East Brunswick, NJ 08816"}
+Completed 500 Internal Server Error in 1289ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:32:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:11:in `get_listing'
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:30:43 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 3861ms (Views: 207.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/68%20Church%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:31:18 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"68 Church Ln, East Brunswick, NJ 08816"}
+Completed 500 Internal Server Error in 1504ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:32:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:11:in `get_listing'
+Started GET "/api/v1/listings/68%20Church%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:32:03 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"68 Church Ln, East Brunswick, NJ 08816"}
+Completed 500 Internal Server Error in 42388ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:35:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:13:in `get_listing'
+Started GET "/api/v1/listings/68%20Church%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:33:46 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"68 Church Ln, East Brunswick, NJ 08816"}
+Completed 500 Internal Server Error in 428661ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:37:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:13:in `get_listing'
+Started GET "/api/v1/listings/68%20Church%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:41:05 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"68 Church Ln, East Brunswick, NJ 08816"}
+Completed 500 Internal Server Error in 1563ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:32:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:11:in `get_listing'
+Started GET "/api/v1/listings/68%20Church%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:41:56 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"68 Church Ln, East Brunswick, NJ 08816"}
+Completed 500 Internal Server Error in 2214ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:32:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:11:in `get_listing'
+Started GET "/api/v1/listings/68%20Church%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:42:19 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"68 Church Ln, East Brunswick, NJ 08816"}
+Started GET "/api/v1/listings/68%20Church%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:43:25 -0400
+Completed 500 Internal Server Error in 65394ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:33:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:11:in `get_listing'
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"68 Church Ln, East Brunswick, NJ 08816"}
+Completed 500 Internal Server Error in 4257ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:33:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:11:in `get_listing'
+Started GET "/api/v1/listings/68%20Church%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:43:51 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"68 Church Ln, East Brunswick, NJ 08816"}
+Completed 200 OK in 1065ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/68%20Church%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:44:42 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"68 Church Ln, East Brunswick, NJ 08816"}
+Completed 200 OK in 1443ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:45:36 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 3718ms (Views: 237.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/68%20Church%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 15:46:12 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"68 Church Ln, East Brunswick, NJ 08816"}
+Completed 200 OK in 1191ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/68%20Church%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 17:01:01 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"68 Church Ln, East Brunswick, NJ 08816"}
+Completed 200 OK in 1380ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/68%20Church%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 17:03:10 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"68 Church Ln, East Brunswick, NJ 08816"}
+Completed 200 OK in 1784ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/13%20Guernsey%20Ln,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 17:12:34 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"13 Guernsey Ln, East Brunswick, NJ 08816"}
+Completed 200 OK in 3725ms (Views: 211.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/9%20Gatarz%20Ct,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 17:13:31 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"9 Gatarz Ct, East Brunswick, NJ 08816"}
+Completed 200 OK in 5928ms (Views: 839.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/9%20Gatarz%20Ct,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 17:14:01 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"9 Gatarz Ct, East Brunswick, NJ 08816"}
+Completed 200 OK in 3440ms (Views: 179.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/42%20Buckingham%20Dr,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 17:19:43 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"42 Buckingham Dr, East Brunswick, NJ 08816"}
+Completed 200 OK in 3783ms (Views: 180.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/6%20Winchester%20Dr,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 17:20:45 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"6 Winchester Dr, East Brunswick, NJ 08816"}
+Completed 200 OK in 4062ms (Views: 200.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/6%20Winchester%20Dr,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-20 17:26:46 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"6 Winchester Dr, East Brunswick, NJ 08816"}
+Completed 200 OK in 3576ms (Views: 207.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/63%20Dalton%20Pl,%20Edison,%20NJ%2008817" for 127.0.0.1 at 2017-09-20 17:27:55 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"63 Dalton Pl, Edison, NJ 08817"}
+Completed 200 OK in 3363ms (Views: 171.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-20 17:31:24 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 3415ms (Views: 195.8ms | ActiveRecord: 0.0ms)
+
+
