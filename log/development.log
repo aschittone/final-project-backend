@@ -1826,3 +1826,614 @@ Processing by Api::V1::ListingsController#get_listing as */*
 Completed 200 OK in 4149ms (Views: 186.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 09:04:37 -0400
+  [1m[35m (82.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1228ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 09:07:47 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 853ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 09:09:10 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 756ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 09:10:27 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 689ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 09:11:19 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 597ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 09:20:25 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 726ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 09:32:24 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 636ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-21 09:33:25 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 687ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 09:51:04 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 825ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 09:56:27 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 547ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 09:58:11 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 840ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 10:06:30 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 705ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 10:09:50 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 702ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 10:20:24 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 840ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-21 10:20:37 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 609ms (Views: 92.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 10:25:05 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1005ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 10:29:00 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 2750ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 10:35:55 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 883ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 10:38:56 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 842ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 10:42:41 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 655ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 10:51:12 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 593ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:01:00 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 903ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:07:18 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 522ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:11:57 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 564ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:20:41 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 635ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-21 11:21:57 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 705ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:23:58 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 692ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:24:54 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 655ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:30:14 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 791ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:31:35 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 590ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:36:34 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 676ms (Views: 97.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:36:52 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 580ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:38:31 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 521ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:41:10 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 496ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:44:29 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 562ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Roa'd,%20East%20Brunswick,%20NJ%200881" for 127.0.0.1 at 2017-09-21 11:45:22 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Roa'd, East Brunswick, NJ 0881"}
+Completed 500 Internal Server Error in 567ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:10:in `get_listing'
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:45:35 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 564ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:47:21 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 466ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:48:33 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 420ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-21 11:49:53 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 433ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 11:51:58 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 733ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-21 12:04:29 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 562ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 12:08:50 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 790ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 12:12:20 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 845ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 13:07:10 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 738ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 13:09:30 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 704ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 13:12:44 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1454ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-21 13:15:53 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 1009ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 13:18:51 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 721ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-21 13:21:24 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 701ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 13:30:51 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 894ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 13:31:35 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 647ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 13:43:04 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 799ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 13:47:58 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 897ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-21 13:52:49 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 740ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 13:54:22 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 982ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 13:58:21 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 886ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 13:59:46 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1001ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 14:27:33 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1392ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 14:28:01 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 791ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 14:39:53 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1722ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 14:52:40 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1905ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 14:53:38 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 709ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 14:57:41 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1939ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:00:47 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 546ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:13:32 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 780ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:15:41 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 759ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:16:57 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1046ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:17:59 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 502ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:18:18 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 677ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:19:22 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 621ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:19:34 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 481ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:20:11 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 525ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:27:59 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 630ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:34:54 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 620ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:39:16 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 599ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:41:00 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 949ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:41:54 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1281ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:43:58 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1112ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:51:22 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 558ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 15:51:35 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 868ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 16:33:55 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 1173ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 16:35:40 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 688ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 16:39:43 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 803ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 17:18:18 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 668ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 17:20:17 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 679ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 17:24:03 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 669ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 17:26:10 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 970ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 17:37:09 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 888ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 17:38:08 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 895ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 17:39:16 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 906ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-21 17:40:32 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 767ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1057%20Coolidge%20Rd,%20Elizabeth,%20NJ%2007208" for 127.0.0.1 at 2017-09-21 17:42:00 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1057 Coolidge Rd, Elizabeth, NJ 07208"}
+Completed 200 OK in 726ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 17:43:51 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 589ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 17:45:58 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 848ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 17:49:12 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 676ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 17:54:54 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 976ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 17:55:01 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 458ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 17:59:53 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 548ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 18:03:11 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 813ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ%2008816" for 127.0.0.1 at 2017-09-21 18:10:52 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ 08816"}
+Completed 200 OK in 695ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
