@@ -16,11 +16,11 @@ ActiveRecord::Schema.define(version: 20170917194706) do
   enable_extension "plpgsql"
 
   create_table "listings", force: :cascade do |t|
-    t.string "number"
-    t.string "street"
-    t.string "town"
-    t.string "state"
-    t.string "zip_code"
+    t.string "address"
+    t.integer "rent"
+    t.integer "taxes"
+    t.string "latitude"
+    t.string "longitude"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 20170917194706) do
   end
 
   create_table "users", force: :cascade do |t|
+    t.string "name"
     t.string "username"
     t.string "password_digest"
     t.datetime "created_at", null: false

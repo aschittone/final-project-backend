@@ -3,6 +3,13 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       get '/listings/:address', to: 'listings#get_listing'
+      post '/users', to: 'users#create'
+      post '/login', to: 'auth#create'
+      get '/me', to: 'users#me'
+      post '/user/listings', to: 'user_listings#create'
+      delete '/user/listings/:address', to: 'user_listings#destroy'
+      
+      
     end
   end
 end
