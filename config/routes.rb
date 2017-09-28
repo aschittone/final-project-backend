@@ -8,6 +8,9 @@ Rails.application.routes.draw do
       get '/me', to: 'users#me'
       post '/user/listings', to: 'user_listings#create'
       delete '/user/listings/:address', to: 'user_listings#destroy'
+      get '/user/financials', to: 'users#get_financials'
+      post '/user/financials', to: 'users#save_financials'
+      
       
       
     end

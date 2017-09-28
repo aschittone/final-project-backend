@@ -7,26 +7,25 @@ class Api::V1::ListingsController < ApplicationController
 		url_address = split_address(listing_params["address"])	
 		response = Excon.get("http://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz1fzorn263gr_9abc1&address=#{url_address[0]}&citystatezip=#{url_address[1]}%2C+#{url_address[2]}&rentzestimate=true")
 		response_hash = Hash.from_xml(response.body)
-		byebug
 		if response_hash["searchresults"]["response"]["results"]["result"].class == Array && response_hash["searchresults"]["response"]["results"]["result"][0]["address"]["street"] == response_hash["searchresults"]["response"]["results"]["result"][1]["address"]["street"]
 			z_property_id = response_hash["searchresults"]["response"]["results"]["result"][0]["zpid"]
 			result = get_sort_details(z_property_id, response_hash)
 			final_result = get_details(result)
-		byebug
+		# byebug
 			render json: final_result
 		elsif response_hash["searchresults"]["response"]["results"]["result"].class == Array
 			result = []
 			response_hash["searchresults"]["response"]["results"]["result"].map do |property|
 				result << property["address"]["street"] + ", " + property["address"]["city"] + ", " + property["address"]["state"]
 			end
-		byebug
+		# byebug
 			
 			render json: result
 		else
 			z_property_id = response_hash["searchresults"]["response"]["results"]["result"]["zpid"]
 			result = get_sort_details(z_property_id, response_hash)
 			final_result = get_details(result)
-		byebug
+		# byebug
 			
 			render json: final_result
 		end
@@ -72,27 +71,18 @@ class Api::V1::ListingsController < ApplicationController
 		state = results[0]["address"]["state"]
 		data = Excon.get("https://search.onboard-apis.com/propertyapi/v1.0.0/allevents/detail?address1=#{full_street}&address2=#{city} #{state}", headers: {Accept: 'application/json',APIKey: 'f137e17eb6b1e71808a39da5419874bb'})
 		if JSON.parse(data[:body])["property"].length >= 1 || JSON.parse(data[:body])["status"]["msg"] != "SuccessWithoutResult"
-		byebug
+		# byebug
 			return results << data
 		else
-		byebug			
+		# byebug			
 			return results << "tax data not available"
 		end
 	end
 
 
 	def split_address(address)
-		
 		split_address = address.split(", ")
 		street_address = split_address[0].gsub(/ /, '+')
-		# case obj.class
-		# when String
-		# 	print('It is a string')
-		# when Fixnum
-		# 	print('It is a number')
-		# else
-		# 	print('It is not a string')
-		# end
 		city = split_address[1].gsub(/ /, '+')
 		state = split_address[2].slice(0, 2)
 		return [street_address, city, state]
@@ -105,3 +95,4 @@ class Api::V1::ListingsController < ApplicationController
 	end
 
 end
+
