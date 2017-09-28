@@ -16042,3 +16042,888 @@ Processing by Api::V1::UsersController#get_financials as JSON
 Completed 200 OK in 275ms (Views: 140.8ms | ActiveRecord: 5.4ms)
 
 
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 15:22:13 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 12540ms (Views: 275.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 15:22:27 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 468ms (Views: 233.9ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 15:25:00 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 9711ms (Views: 236.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 15:25:10 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (96.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 441ms (Views: 95.2ms | ActiveRecord: 96.1ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 15:28:11 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 11013ms (Views: 519.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 15:28:28 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (8.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 578ms (Views: 116.4ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 15:31:34 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 9316ms (Views: 670.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 15:31:44 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (91.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 289ms (Views: 65.2ms | ActiveRecord: 91.6ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 15:45:57 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 13091ms (Views: 591.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 15:46:12 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (6.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 261ms (Views: 192.5ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 15:47:30 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 6932ms (Views: 259.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 15:47:37 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (7.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 275ms (Views: 76.1ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 15:50:24 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 11803ms (Views: 918.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 15:50:36 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 245ms (Views: 49.4ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 15:52:20 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 8344ms (Views: 378.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 15:52:29 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (40.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 279ms (Views: 114.3ms | ActiveRecord: 40.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 15:56:04 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 6817ms (Views: 585.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 15:56:31 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 9827ms (Views: 269.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 15:56:49 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (61.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 515ms (Views: 194.8ms | ActiveRecord: 61.4ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 16:03:57 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 14546ms (Views: 277.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:04:13 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (9.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 341ms (Views: 95.3ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 16:06:06 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 12200ms (Views: 226.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:06:20 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (55.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 300ms (Views: 178.4ms | ActiveRecord: 55.6ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 16:08:05 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 12869ms (Views: 381.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:08:24 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 539ms (Views: 157.0ms | ActiveRecord: 5.6ms)
+
+
+Started POST "/api/v1/user/listings" for 127.0.0.1 at 2017-09-28 16:10:21 -0400
+Processing by Api::V1::UserListingsController#create as JSON
+  Parameters: {"0"=>{"zpid"=>"40084043", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/10-Creston-Ave-Union-NJ-07083/40084043_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/10-Creston-Ave-Union-NJ-07083/40084043_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/40084043_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/40084043_zpid/"}, "address"=>{"street"=>"10 Creston Ave", "zipcode"=>"07083", "city"=>"Union", "state"=>"NJ", "latitude"=>"40.716769", "longitude"=>"-74.268704"}, "FIPScounty"=>"34039", "useCode"=>"SingleFamily", "taxAssessmentYear"=>"2017", "taxAssessment"=>"33200.0", "yearBuilt"=>"1927", "lotSizeSqFt"=>"3101", "bathrooms"=>"2.0", "bedrooms"=>"3", "zestimate"=>{"amount"=>"235597", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-5485", "valuationRange"=>{"low"=>"204969", "high"=>"252089"}, "percentile"=>"0"}, "rentzestimate"=>{"amount"=>"1875", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-3", "valuationRange"=>{"low"=>"1406", "high"=>"2494"}}, "localRealEstate"=>{"region"=>{"name"=>"Vauxhall", "id"=>"22667", "type"=>"neighborhood", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Union/Vauxhall/r_22667/", "forSaleByOwner"=>"http://www.zillow.com/vauxhall-union-nj/fsbo/", "forSale"=>"http://www.zillow.com/vauxhall-union-nj/"}}}}, "1"=>[{"score"=>"6.0", "zpid"=>"52634084", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/17-Park-Ave-Maplewood-NJ-07040/52634084_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/17-Park-Ave-Maplewood-NJ-07040/52634084_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52634084_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52634084_zpid/"}, "address"=>{"street"=>"17 Park Ave", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.723917", "longitude"=>"-74.275822"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"395700.0", "yearBuilt"=>"1921", "lotSizeSqFt"=>"6098", "finishedSqFt"=>"1621", "bathrooms"=>"1.0", "bedrooms"=>"3", "lastSoldDate"=>"03/15/2017", "lastSoldPrice"=>"250000", "zestimate"=>{"amount"=>"421636", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-1999", "valuationRange"=>{"low"=>"261414", "high"=>"489098"}, "percentile"=>"43"}, "rentzestimate"=>{"amount"=>"2900", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"13", "valuationRange"=>{"low"=>"1856", "high"=>"3596"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}, {"score"=>"12.0", "zpid"=>"52635133", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/30-Yale-St-Maplewood-NJ-07040/52635133_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/30-Yale-St-Maplewood-NJ-07040/52635133_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52635133_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52635133_zpid/"}, "address"=>{"street"=>"30 Yale St", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.723369", "longitude"=>"-74.268005"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"536400.0", "yearBuilt"=>"1921", "lotSizeSqFt"=>"7501", "finishedSqFt"=>"1759", "lastSoldDate"=>"03/07/2017", "lastSoldPrice"=>"442000", "zestimate"=>{"amount"=>"530780", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"6783", "valuationRange"=>{"low"=>"435240", "high"=>"589166"}, "percentile"=>"61"}, "rentzestimate"=>{"amount"=>"3044", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-62", "valuationRange"=>{"low"=>"1705", "high"=>"3896"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}, {"score"=>"4.0", "zpid"=>"40083191", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/1759-Wolbert-Ter-Union-NJ-07083/40083191_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/1759-Wolbert-Ter-Union-NJ-07083/40083191_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/40083191_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/40083191_zpid/"}, "address"=>{"street"=>"1759 Wolbert Ter", "zipcode"=>"07083", "city"=>"Union", "state"=>"NJ", "latitude"=>"40.713731", "longitude"=>"-74.267729"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"46000.0", "yearBuilt"=>"1969", "lotSizeSqFt"=>"4356", "bedrooms"=>"2", "totalRooms"=>"6", "lastSoldDate"=>"09/05/2017", "lastSoldPrice"=>"200000", "zestimate"=>{"amount"=>"204337", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"8525", "valuationRange"=>{"low"=>"194120", "high"=>"228857"}, "percentile"=>"10"}, "rentzestimate"=>{"amount"=>"1850", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-150", "valuationRange"=>{"low"=>"1351", "high"=>"2387"}}, "localRealEstate"=>{"region"=>{"name"=>"Vauxhall", "id"=>"22667", "type"=>"neighborhood", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Union/Vauxhall/r_22667/", "forSaleByOwner"=>"http://www.zillow.com/vauxhall-union-nj/fsbo/", "forSale"=>"http://www.zillow.com/vauxhall-union-nj/"}}}}, {"score"=>"5.0", "zpid"=>"52637953", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/175-Burnett-Ave-Maplewood-NJ-07040/52637953_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/175-Burnett-Ave-Maplewood-NJ-07040/52637953_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52637953_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52637953_zpid/"}, "address"=>{"street"=>"175 Burnett Ave", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.718588", "longitude"=>"-74.264248"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"427900.0", "yearBuilt"=>"1921", "lotSizeSqFt"=>"7549", "finishedSqFt"=>"2314", "bathrooms"=>"2.0", "bedrooms"=>"3", "lastSoldDate"=>"04/24/2017", "lastSoldPrice"=>"285000", "zestimate"=>{"amount"=>"369772", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"1048", "valuationRange"=>{"low"=>"295818", "high"=>"425238"}, "percentile"=>"36"}, "rentzestimate"=>{"amount"=>"2250", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"223", "valuationRange"=>{"low"=>"1508", "high"=>"3195"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}], "2"=>1875, "3"=>{"data"=>{"body"=>"{\"status\":{\"version\":\"1.0.0\",\"code\":0,\"msg\":\"SuccessWithResult\",\"total\":1,\"page\":1,\"pagesize\":10},\"property\":[{\"identifier\":{\"obPropId\":8512829934039,\"fips\":\"34039\",\"apn\":\"1905802000000013\",\"apnOrig\":\"1905802    00013\"},\"lot\":{\"depth\":100,\"frontage\":31,\"lotnum\":\"13\",\"lotsize1\":0.0712,\"lotsize2\":3101,\"lottype\":\"31X100\"},\"area\":{\"blockNum\":\"5802\",\"countrysecsubd\":\"Union County\",\"countyuse1\":\"2\",\"munname\":\"UNION TWP\",\"taxcodearea\":\"19\"},\"address\":{\"country\":\"US\",\"countrySubd\":\"NJ\",\"line1\":\"10 CRESTON AVE\",\"line2\":\"UNION, NJ 07083\",\"locality\":\"Union\",\"matchCode\":\"ExaStr\",\"oneLine\":\"10 CRESTON AVE, UNION, NJ 07083\",\"postal1\":\"07083\",\"postal2\":\"4222\",\"postal3\":\"C004\"},\"location\":{\"accuracy\":\"Street\",\"elevation\":0.0,\"latitude\":\"40.716575\",\"longitude\":\"-74.268880\",\"distance\":0.0,\"geoid\":\"CO34039,CS3474480,DB3416500,MT30004143,ND0001570067,ND0002538275,SB0000103413,SB0000103417,ZI07083\"},\"summary\":{\"absenteeInd\":\"SITUS FROM SALE (OCCUPIED)\",\"propclass\":\"Single Family Residence / Townhouse\",\"proptype\":\"SFR\",\"yearbuilt\":1927,\"propLandUse\":\"SFR\",\"propIndicator\":\"10\"},\"utilities\":{\"wallType\":\"FRAME\"},\"building\":{\"size\":{\"bldgsize\":0,\"grosssize\":0,\"grosssizeadjusted\":0,\"groundfloorsize\":0,\"livingsize\":0,\"universalsize\":0},\"rooms\":{\"bathfixtures\":0,\"baths1qtr\":0,\"baths3qtr\":0,\"bathscalc\":0.0,\"bathsfull\":0,\"bathshalf\":0,\"bathstotal\":0.0,\"beds\":0,\"roomsTotal\":0},\"interior\":{\"bsmtsize\":0,\"fplccount\":0},\"construction\":{\"wallType\":\"FRAME\"},\"parking\":{\"garagetype\":\"UNDEFINED TYPE - 1 CAR GARAGE\",\"prkgSize\":0,\"prkgSpaces\":\"0\",\"prkgType\":\"UNDEFINED TYPE - 1 CAR GARAGE\"},\"summary\":{\"bldgsNum\":1,\"levels\":2,\"unitsCount\":\"0\",\"yearbuilteffective\":0}},\"vintage\":{\"lastModified\":\"2016-4-23\",\"pubDate\":\"2016-5-1\"},\"avm\":{\"eventDate\":\"2017-8-3\",\"amount\":{\"scr\":71,\"value\":248715,\"high\":293484,\"low\":203946,\"valueRange\":89538},\"calculations\":{\"perSizeUnit\":0.0,\"ratioTaxAmt\":41.3,\"ratioTaxValue\":7.49,\"monthlyChgPct\":0.0,\"monthlyChgValue\":0,\"rangePctOfValue\":36.0}},\"sale\":{\"salesearchdate\":\"2015-12-29\",\"saleTransDate\":\"2015-12-29\",\"amount\":{\"saleamt\":253000,\"salerecdate\":\"2016-1-6\",\"saledisclosuretype\":0,\"saledocnum\":\"269184\",\"saletranstype\":\"Resale\"},\"calculation\":{\"priceperbed\":0,\"pricepersizeunit\":0},\"ownershiptransferpercentage\":0,\"resaleornewconstruction\":\"M\",\"cashormortgagepurchase\":\"M\"},\"assessment\":{\"appraised\":{\"apprimprvalue\":0,\"apprlandvalue\":0,\"apprttlvalue\":0},\"assessed\":{\"assdimprpersizeunit\":0.0,\"assdimprvalue\":21100,\"assdlandpersizeunit\":3.9,\"assdlandvalue\":12100,\"assdttlpersizeunit\":0.0,\"assdttlvalue\":33200},\"calculations\":{\"calcimprind\":\"ASSESSED VALUE\",\"calcimprpersizeunit\":0.0,\"calcimprvalue\":21100,\"calclandind\":\"ASSESSED VALUE\",\"calclandpersizeunit\":10.71,\"calclandvalue\":12100,\"calcttlind\":\"ASSESSED VALUE\",\"calcttlvalue\":33200,\"calcvaluepersizeunit\":0.0},\"market\":{\"mktimprvalue\":127724,\"mktlandvalue\":73245,\"mktttlvalue\":200969},\"tax\":{\"taxamt\":6022.01,\"taxpersizeunit\":0.0,\"taxyear\":2016}}}]}", "cookies"=>[], "host"=>"search.onboard-apis.com", "headers"=>{"Server"=>"nginx/1.9.6", "Date"=>"Thu, 28 Sep 2017 20:08:18 GMT", "Content-Type"=>"application/json", "Content-Length"=>"2926", "Connection"=>"keep-alive", "Cache-Control"=>"no-cache", "Pragma"=>"no-cache", "Expires"=>"-1", "X-AspNet-Version"=>"4.0.30319", "X-Powered-By"=>"ASP.NET", "Access-Control-Allow-Origin"=>"*", "Access-Control-Allow-Credentials"=>"true"}, "path"=>"/propertyapi/v1.0.0/allevents/detail", "port"=>443, "status"=>200, "status_line"=>"HTTP/1.1 200 OK\r\n", "reason_phrase"=>"OK", "remote_ip"=>"8.26.65.193", "local_port"=>60956, "local_address"=>"192.168.6.7"}, "body"=>"{\"status\":{\"version\":\"1.0.0\",\"code\":0,\"msg\":\"SuccessWithResult\",\"total\":1,\"page\":1,\"pagesize\":10},\"property\":[{\"identifier\":{\"obPropId\":8512829934039,\"fips\":\"34039\",\"apn\":\"1905802000000013\",\"apnOrig\":\"1905802    00013\"},\"lot\":{\"depth\":100,\"frontage\":31,\"lotnum\":\"13\",\"lotsize1\":0.0712,\"lotsize2\":3101,\"lottype\":\"31X100\"},\"area\":{\"blockNum\":\"5802\",\"countrysecsubd\":\"Union County\",\"countyuse1\":\"2\",\"munname\":\"UNION TWP\",\"taxcodearea\":\"19\"},\"address\":{\"country\":\"US\",\"countrySubd\":\"NJ\",\"line1\":\"10 CRESTON AVE\",\"line2\":\"UNION, NJ 07083\",\"locality\":\"Union\",\"matchCode\":\"ExaStr\",\"oneLine\":\"10 CRESTON AVE, UNION, NJ 07083\",\"postal1\":\"07083\",\"postal2\":\"4222\",\"postal3\":\"C004\"},\"location\":{\"accuracy\":\"Street\",\"elevation\":0.0,\"latitude\":\"40.716575\",\"longitude\":\"-74.268880\",\"distance\":0.0,\"geoid\":\"CO34039,CS3474480,DB3416500,MT30004143,ND0001570067,ND0002538275,SB0000103413,SB0000103417,ZI07083\"},\"summary\":{\"absenteeInd\":\"SITUS FROM SALE (OCCUPIED)\",\"propclass\":\"Single Family Residence / Townhouse\",\"proptype\":\"SFR\",\"yearbuilt\":1927,\"propLandUse\":\"SFR\",\"propIndicator\":\"10\"},\"utilities\":{\"wallType\":\"FRAME\"},\"building\":{\"size\":{\"bldgsize\":0,\"grosssize\":0,\"grosssizeadjusted\":0,\"groundfloorsize\":0,\"livingsize\":0,\"universalsize\":0},\"rooms\":{\"bathfixtures\":0,\"baths1qtr\":0,\"baths3qtr\":0,\"bathscalc\":0.0,\"bathsfull\":0,\"bathshalf\":0,\"bathstotal\":0.0,\"beds\":0,\"roomsTotal\":0},\"interior\":{\"bsmtsize\":0,\"fplccount\":0},\"construction\":{\"wallType\":\"FRAME\"},\"parking\":{\"garagetype\":\"UNDEFINED TYPE - 1 CAR GARAGE\",\"prkgSize\":0,\"prkgSpaces\":\"0\",\"prkgType\":\"UNDEFINED TYPE - 1 CAR GARAGE\"},\"summary\":{\"bldgsNum\":1,\"levels\":2,\"unitsCount\":\"0\",\"yearbuilteffective\":0}},\"vintage\":{\"lastModified\":\"2016-4-23\",\"pubDate\":\"2016-5-1\"},\"avm\":{\"eventDate\":\"2017-8-3\",\"amount\":{\"scr\":71,\"value\":248715,\"high\":293484,\"low\":203946,\"valueRange\":89538},\"calculations\":{\"perSizeUnit\":0.0,\"ratioTaxAmt\":41.3,\"ratioTaxValue\":7.49,\"monthlyChgPct\":0.0,\"monthlyChgValue\":0,\"rangePctOfValue\":36.0}},\"sale\":{\"salesearchdate\":\"2015-12-29\",\"saleTransDate\":\"2015-12-29\",\"amount\":{\"saleamt\":253000,\"salerecdate\":\"2016-1-6\",\"saledisclosuretype\":0,\"saledocnum\":\"269184\",\"saletranstype\":\"Resale\"},\"calculation\":{\"priceperbed\":0,\"pricepersizeunit\":0},\"ownershiptransferpercentage\":0,\"resaleornewconstruction\":\"M\",\"cashormortgagepurchase\":\"M\"},\"assessment\":{\"appraised\":{\"apprimprvalue\":0,\"apprlandvalue\":0,\"apprttlvalue\":0},\"assessed\":{\"assdimprpersizeunit\":0.0,\"assdimprvalue\":21100,\"assdlandpersizeunit\":3.9,\"assdlandvalue\":12100,\"assdttlpersizeunit\":0.0,\"assdttlvalue\":33200},\"calculations\":{\"calcimprind\":\"ASSESSED VALUE\",\"calcimprpersizeunit\":0.0,\"calcimprvalue\":21100,\"calclandind\":\"ASSESSED VALUE\",\"calclandpersizeunit\":10.71,\"calclandvalue\":12100,\"calcttlind\":\"ASSESSED VALUE\",\"calcttlvalue\":33200,\"calcvaluepersizeunit\":0.0},\"market\":{\"mktimprvalue\":127724,\"mktlandvalue\":73245,\"mktttlvalue\":200969},\"tax\":{\"taxamt\":6022.01,\"taxpersizeunit\":0.0,\"taxyear\":2016}}}]}", "headers"=>{"Server"=>"nginx/1.9.6", "Date"=>"Thu, 28 Sep 2017 20:08:18 GMT", "Content-Type"=>"application/json", "Content-Length"=>"2926", "Connection"=>"keep-alive", "Cache-Control"=>"no-cache", "Pragma"=>"no-cache", "Expires"=>"-1", "X-AspNet-Version"=>"4.0.30319", "X-Powered-By"=>"ASP.NET", "Access-Control-Allow-Origin"=>"*", "Access-Control-Allow-Credentials"=>"true"}, "status"=>200, "remote_ip"=>"8.26.65.193", "local_port"=>60956, "local_address"=>"192.168.6.7"}, "data"=>"", "history"=>{"match"=>{"path"=>"/listing/:address", "url"=>"/listing/10 Vauxhall Road, Union, NJ, United States", "isExact"=>true, "params"=>{"address"=>"10 Vauxhall Road, Union, NJ, United States"}}, "location"=>{"pathname"=>"/listing/10 Vauxhall Road, Union, NJ, United States", "search"=>"", "hash"=>"", "key"=>"d1eipy"}, "history"=>{"length"=>50, "action"=>"POP", "location"=>{"pathname"=>"/listing/10 Vauxhall Road, Union, NJ, United States", "search"=>"", "hash"=>"", "key"=>"d1eipy"}}}, "user_listing"=>{}}
+  [1m[36mListing Load (461.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."rent" = $1 AND "listings"."address" = $2 AND "listings"."taxes" = $3 AND "listings"."latitude" = $4 AND "listings"."longitude" = $5 LIMIT $6[0m  [["rent", 1875], ["address", "10 Creston Ave, Union, NJ"], ["taxes", 6022], ["latitude", "40.716769"], ["longitude", "-74.268704"], ["LIMIT", 1]]
+  [1m[36mUserListing Load (35.9ms)[0m  [1m[34mSELECT "user_listings".* FROM "user_listings"[0m
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 993ms (Views: 13.5ms | ActiveRecord: 500.9ms)
+
+
+Started POST "/api/v1/user/listings" for 127.0.0.1 at 2017-09-28 16:10:31 -0400
+Processing by Api::V1::UserListingsController#create as JSON
+  Parameters: {"0"=>{"zpid"=>"40084043", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/10-Creston-Ave-Union-NJ-07083/40084043_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/10-Creston-Ave-Union-NJ-07083/40084043_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/40084043_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/40084043_zpid/"}, "address"=>{"street"=>"10 Creston Ave", "zipcode"=>"07083", "city"=>"Union", "state"=>"NJ", "latitude"=>"40.716769", "longitude"=>"-74.268704"}, "FIPScounty"=>"34039", "useCode"=>"SingleFamily", "taxAssessmentYear"=>"2017", "taxAssessment"=>"33200.0", "yearBuilt"=>"1927", "lotSizeSqFt"=>"3101", "bathrooms"=>"2.0", "bedrooms"=>"3", "zestimate"=>{"amount"=>"235597", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-5485", "valuationRange"=>{"low"=>"204969", "high"=>"252089"}, "percentile"=>"0"}, "rentzestimate"=>{"amount"=>"1875", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-3", "valuationRange"=>{"low"=>"1406", "high"=>"2494"}}, "localRealEstate"=>{"region"=>{"name"=>"Vauxhall", "id"=>"22667", "type"=>"neighborhood", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Union/Vauxhall/r_22667/", "forSaleByOwner"=>"http://www.zillow.com/vauxhall-union-nj/fsbo/", "forSale"=>"http://www.zillow.com/vauxhall-union-nj/"}}}}, "1"=>[{"score"=>"6.0", "zpid"=>"52634084", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/17-Park-Ave-Maplewood-NJ-07040/52634084_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/17-Park-Ave-Maplewood-NJ-07040/52634084_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52634084_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52634084_zpid/"}, "address"=>{"street"=>"17 Park Ave", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.723917", "longitude"=>"-74.275822"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"395700.0", "yearBuilt"=>"1921", "lotSizeSqFt"=>"6098", "finishedSqFt"=>"1621", "bathrooms"=>"1.0", "bedrooms"=>"3", "lastSoldDate"=>"03/15/2017", "lastSoldPrice"=>"250000", "zestimate"=>{"amount"=>"421636", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-1999", "valuationRange"=>{"low"=>"261414", "high"=>"489098"}, "percentile"=>"43"}, "rentzestimate"=>{"amount"=>"2900", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"13", "valuationRange"=>{"low"=>"1856", "high"=>"3596"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}, {"score"=>"12.0", "zpid"=>"52635133", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/30-Yale-St-Maplewood-NJ-07040/52635133_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/30-Yale-St-Maplewood-NJ-07040/52635133_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52635133_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52635133_zpid/"}, "address"=>{"street"=>"30 Yale St", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.723369", "longitude"=>"-74.268005"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"536400.0", "yearBuilt"=>"1921", "lotSizeSqFt"=>"7501", "finishedSqFt"=>"1759", "lastSoldDate"=>"03/07/2017", "lastSoldPrice"=>"442000", "zestimate"=>{"amount"=>"530780", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"6783", "valuationRange"=>{"low"=>"435240", "high"=>"589166"}, "percentile"=>"61"}, "rentzestimate"=>{"amount"=>"3044", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-62", "valuationRange"=>{"low"=>"1705", "high"=>"3896"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}, {"score"=>"4.0", "zpid"=>"40083191", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/1759-Wolbert-Ter-Union-NJ-07083/40083191_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/1759-Wolbert-Ter-Union-NJ-07083/40083191_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/40083191_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/40083191_zpid/"}, "address"=>{"street"=>"1759 Wolbert Ter", "zipcode"=>"07083", "city"=>"Union", "state"=>"NJ", "latitude"=>"40.713731", "longitude"=>"-74.267729"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"46000.0", "yearBuilt"=>"1969", "lotSizeSqFt"=>"4356", "bedrooms"=>"2", "totalRooms"=>"6", "lastSoldDate"=>"09/05/2017", "lastSoldPrice"=>"200000", "zestimate"=>{"amount"=>"204337", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"8525", "valuationRange"=>{"low"=>"194120", "high"=>"228857"}, "percentile"=>"10"}, "rentzestimate"=>{"amount"=>"1850", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-150", "valuationRange"=>{"low"=>"1351", "high"=>"2387"}}, "localRealEstate"=>{"region"=>{"name"=>"Vauxhall", "id"=>"22667", "type"=>"neighborhood", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Union/Vauxhall/r_22667/", "forSaleByOwner"=>"http://www.zillow.com/vauxhall-union-nj/fsbo/", "forSale"=>"http://www.zillow.com/vauxhall-union-nj/"}}}}, {"score"=>"5.0", "zpid"=>"52637953", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/175-Burnett-Ave-Maplewood-NJ-07040/52637953_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/175-Burnett-Ave-Maplewood-NJ-07040/52637953_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52637953_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52637953_zpid/"}, "address"=>{"street"=>"175 Burnett Ave", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.718588", "longitude"=>"-74.264248"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"427900.0", "yearBuilt"=>"1921", "lotSizeSqFt"=>"7549", "finishedSqFt"=>"2314", "bathrooms"=>"2.0", "bedrooms"=>"3", "lastSoldDate"=>"04/24/2017", "lastSoldPrice"=>"285000", "zestimate"=>{"amount"=>"369772", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"1048", "valuationRange"=>{"low"=>"295818", "high"=>"425238"}, "percentile"=>"36"}, "rentzestimate"=>{"amount"=>"2250", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"223", "valuationRange"=>{"low"=>"1508", "high"=>"3195"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}], "2"=>1875, "3"=>{"data"=>{"body"=>"{\"status\":{\"version\":\"1.0.0\",\"code\":0,\"msg\":\"SuccessWithResult\",\"total\":1,\"page\":1,\"pagesize\":10},\"property\":[{\"identifier\":{\"obPropId\":8512829934039,\"fips\":\"34039\",\"apn\":\"1905802000000013\",\"apnOrig\":\"1905802    00013\"},\"lot\":{\"depth\":100,\"frontage\":31,\"lotnum\":\"13\",\"lotsize1\":0.0712,\"lotsize2\":3101,\"lottype\":\"31X100\"},\"area\":{\"blockNum\":\"5802\",\"countrysecsubd\":\"Union County\",\"countyuse1\":\"2\",\"munname\":\"UNION TWP\",\"taxcodearea\":\"19\"},\"address\":{\"country\":\"US\",\"countrySubd\":\"NJ\",\"line1\":\"10 CRESTON AVE\",\"line2\":\"UNION, NJ 07083\",\"locality\":\"Union\",\"matchCode\":\"ExaStr\",\"oneLine\":\"10 CRESTON AVE, UNION, NJ 07083\",\"postal1\":\"07083\",\"postal2\":\"4222\",\"postal3\":\"C004\"},\"location\":{\"accuracy\":\"Street\",\"elevation\":0.0,\"latitude\":\"40.716575\",\"longitude\":\"-74.268880\",\"distance\":0.0,\"geoid\":\"CO34039,CS3474480,DB3416500,MT30004143,ND0001570067,ND0002538275,SB0000103413,SB0000103417,ZI07083\"},\"summary\":{\"absenteeInd\":\"SITUS FROM SALE (OCCUPIED)\",\"propclass\":\"Single Family Residence / Townhouse\",\"proptype\":\"SFR\",\"yearbuilt\":1927,\"propLandUse\":\"SFR\",\"propIndicator\":\"10\"},\"utilities\":{\"wallType\":\"FRAME\"},\"building\":{\"size\":{\"bldgsize\":0,\"grosssize\":0,\"grosssizeadjusted\":0,\"groundfloorsize\":0,\"livingsize\":0,\"universalsize\":0},\"rooms\":{\"bathfixtures\":0,\"baths1qtr\":0,\"baths3qtr\":0,\"bathscalc\":0.0,\"bathsfull\":0,\"bathshalf\":0,\"bathstotal\":0.0,\"beds\":0,\"roomsTotal\":0},\"interior\":{\"bsmtsize\":0,\"fplccount\":0},\"construction\":{\"wallType\":\"FRAME\"},\"parking\":{\"garagetype\":\"UNDEFINED TYPE - 1 CAR GARAGE\",\"prkgSize\":0,\"prkgSpaces\":\"0\",\"prkgType\":\"UNDEFINED TYPE - 1 CAR GARAGE\"},\"summary\":{\"bldgsNum\":1,\"levels\":2,\"unitsCount\":\"0\",\"yearbuilteffective\":0}},\"vintage\":{\"lastModified\":\"2016-4-23\",\"pubDate\":\"2016-5-1\"},\"avm\":{\"eventDate\":\"2017-8-3\",\"amount\":{\"scr\":71,\"value\":248715,\"high\":293484,\"low\":203946,\"valueRange\":89538},\"calculations\":{\"perSizeUnit\":0.0,\"ratioTaxAmt\":41.3,\"ratioTaxValue\":7.49,\"monthlyChgPct\":0.0,\"monthlyChgValue\":0,\"rangePctOfValue\":36.0}},\"sale\":{\"salesearchdate\":\"2015-12-29\",\"saleTransDate\":\"2015-12-29\",\"amount\":{\"saleamt\":253000,\"salerecdate\":\"2016-1-6\",\"saledisclosuretype\":0,\"saledocnum\":\"269184\",\"saletranstype\":\"Resale\"},\"calculation\":{\"priceperbed\":0,\"pricepersizeunit\":0},\"ownershiptransferpercentage\":0,\"resaleornewconstruction\":\"M\",\"cashormortgagepurchase\":\"M\"},\"assessment\":{\"appraised\":{\"apprimprvalue\":0,\"apprlandvalue\":0,\"apprttlvalue\":0},\"assessed\":{\"assdimprpersizeunit\":0.0,\"assdimprvalue\":21100,\"assdlandpersizeunit\":3.9,\"assdlandvalue\":12100,\"assdttlpersizeunit\":0.0,\"assdttlvalue\":33200},\"calculations\":{\"calcimprind\":\"ASSESSED VALUE\",\"calcimprpersizeunit\":0.0,\"calcimprvalue\":21100,\"calclandind\":\"ASSESSED VALUE\",\"calclandpersizeunit\":10.71,\"calclandvalue\":12100,\"calcttlind\":\"ASSESSED VALUE\",\"calcttlvalue\":33200,\"calcvaluepersizeunit\":0.0},\"market\":{\"mktimprvalue\":127724,\"mktlandvalue\":73245,\"mktttlvalue\":200969},\"tax\":{\"taxamt\":6022.01,\"taxpersizeunit\":0.0,\"taxyear\":2016}}}]}", "cookies"=>[], "host"=>"search.onboard-apis.com", "headers"=>{"Server"=>"nginx/1.9.6", "Date"=>"Thu, 28 Sep 2017 20:08:18 GMT", "Content-Type"=>"application/json", "Content-Length"=>"2926", "Connection"=>"keep-alive", "Cache-Control"=>"no-cache", "Pragma"=>"no-cache", "Expires"=>"-1", "X-AspNet-Version"=>"4.0.30319", "X-Powered-By"=>"ASP.NET", "Access-Control-Allow-Origin"=>"*", "Access-Control-Allow-Credentials"=>"true"}, "path"=>"/propertyapi/v1.0.0/allevents/detail", "port"=>443, "status"=>200, "status_line"=>"HTTP/1.1 200 OK\r\n", "reason_phrase"=>"OK", "remote_ip"=>"8.26.65.193", "local_port"=>60956, "local_address"=>"192.168.6.7"}, "body"=>"{\"status\":{\"version\":\"1.0.0\",\"code\":0,\"msg\":\"SuccessWithResult\",\"total\":1,\"page\":1,\"pagesize\":10},\"property\":[{\"identifier\":{\"obPropId\":8512829934039,\"fips\":\"34039\",\"apn\":\"1905802000000013\",\"apnOrig\":\"1905802    00013\"},\"lot\":{\"depth\":100,\"frontage\":31,\"lotnum\":\"13\",\"lotsize1\":0.0712,\"lotsize2\":3101,\"lottype\":\"31X100\"},\"area\":{\"blockNum\":\"5802\",\"countrysecsubd\":\"Union County\",\"countyuse1\":\"2\",\"munname\":\"UNION TWP\",\"taxcodearea\":\"19\"},\"address\":{\"country\":\"US\",\"countrySubd\":\"NJ\",\"line1\":\"10 CRESTON AVE\",\"line2\":\"UNION, NJ 07083\",\"locality\":\"Union\",\"matchCode\":\"ExaStr\",\"oneLine\":\"10 CRESTON AVE, UNION, NJ 07083\",\"postal1\":\"07083\",\"postal2\":\"4222\",\"postal3\":\"C004\"},\"location\":{\"accuracy\":\"Street\",\"elevation\":0.0,\"latitude\":\"40.716575\",\"longitude\":\"-74.268880\",\"distance\":0.0,\"geoid\":\"CO34039,CS3474480,DB3416500,MT30004143,ND0001570067,ND0002538275,SB0000103413,SB0000103417,ZI07083\"},\"summary\":{\"absenteeInd\":\"SITUS FROM SALE (OCCUPIED)\",\"propclass\":\"Single Family Residence / Townhouse\",\"proptype\":\"SFR\",\"yearbuilt\":1927,\"propLandUse\":\"SFR\",\"propIndicator\":\"10\"},\"utilities\":{\"wallType\":\"FRAME\"},\"building\":{\"size\":{\"bldgsize\":0,\"grosssize\":0,\"grosssizeadjusted\":0,\"groundfloorsize\":0,\"livingsize\":0,\"universalsize\":0},\"rooms\":{\"bathfixtures\":0,\"baths1qtr\":0,\"baths3qtr\":0,\"bathscalc\":0.0,\"bathsfull\":0,\"bathshalf\":0,\"bathstotal\":0.0,\"beds\":0,\"roomsTotal\":0},\"interior\":{\"bsmtsize\":0,\"fplccount\":0},\"construction\":{\"wallType\":\"FRAME\"},\"parking\":{\"garagetype\":\"UNDEFINED TYPE - 1 CAR GARAGE\",\"prkgSize\":0,\"prkgSpaces\":\"0\",\"prkgType\":\"UNDEFINED TYPE - 1 CAR GARAGE\"},\"summary\":{\"bldgsNum\":1,\"levels\":2,\"unitsCount\":\"0\",\"yearbuilteffective\":0}},\"vintage\":{\"lastModified\":\"2016-4-23\",\"pubDate\":\"2016-5-1\"},\"avm\":{\"eventDate\":\"2017-8-3\",\"amount\":{\"scr\":71,\"value\":248715,\"high\":293484,\"low\":203946,\"valueRange\":89538},\"calculations\":{\"perSizeUnit\":0.0,\"ratioTaxAmt\":41.3,\"ratioTaxValue\":7.49,\"monthlyChgPct\":0.0,\"monthlyChgValue\":0,\"rangePctOfValue\":36.0}},\"sale\":{\"salesearchdate\":\"2015-12-29\",\"saleTransDate\":\"2015-12-29\",\"amount\":{\"saleamt\":253000,\"salerecdate\":\"2016-1-6\",\"saledisclosuretype\":0,\"saledocnum\":\"269184\",\"saletranstype\":\"Resale\"},\"calculation\":{\"priceperbed\":0,\"pricepersizeunit\":0},\"ownershiptransferpercentage\":0,\"resaleornewconstruction\":\"M\",\"cashormortgagepurchase\":\"M\"},\"assessment\":{\"appraised\":{\"apprimprvalue\":0,\"apprlandvalue\":0,\"apprttlvalue\":0},\"assessed\":{\"assdimprpersizeunit\":0.0,\"assdimprvalue\":21100,\"assdlandpersizeunit\":3.9,\"assdlandvalue\":12100,\"assdttlpersizeunit\":0.0,\"assdttlvalue\":33200},\"calculations\":{\"calcimprind\":\"ASSESSED VALUE\",\"calcimprpersizeunit\":0.0,\"calcimprvalue\":21100,\"calclandind\":\"ASSESSED VALUE\",\"calclandpersizeunit\":10.71,\"calclandvalue\":12100,\"calcttlind\":\"ASSESSED VALUE\",\"calcttlvalue\":33200,\"calcvaluepersizeunit\":0.0},\"market\":{\"mktimprvalue\":127724,\"mktlandvalue\":73245,\"mktttlvalue\":200969},\"tax\":{\"taxamt\":6022.01,\"taxpersizeunit\":0.0,\"taxyear\":2016}}}]}", "headers"=>{"Server"=>"nginx/1.9.6", "Date"=>"Thu, 28 Sep 2017 20:08:18 GMT", "Content-Type"=>"application/json", "Content-Length"=>"2926", "Connection"=>"keep-alive", "Cache-Control"=>"no-cache", "Pragma"=>"no-cache", "Expires"=>"-1", "X-AspNet-Version"=>"4.0.30319", "X-Powered-By"=>"ASP.NET", "Access-Control-Allow-Origin"=>"*", "Access-Control-Allow-Credentials"=>"true"}, "status"=>200, "remote_ip"=>"8.26.65.193", "local_port"=>60956, "local_address"=>"192.168.6.7"}, "data"=>"", "history"=>{"match"=>{"path"=>"/listing/:address", "url"=>"/listing/10 Vauxhall Road, Union, NJ, United States", "isExact"=>true, "params"=>{"address"=>"10 Vauxhall Road, Union, NJ, United States"}}, "location"=>{"pathname"=>"/listing/10 Vauxhall Road, Union, NJ, United States", "search"=>"", "hash"=>"", "key"=>"d1eipy"}, "history"=>{"length"=>50, "action"=>"POP", "location"=>{"pathname"=>"/listing/10 Vauxhall Road, Union, NJ, United States", "search"=>"", "hash"=>"", "key"=>"d1eipy"}}}, "user_listing"=>{}}
+  [1m[36mListing Load (598.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."rent" = $1 AND "listings"."address" = $2 AND "listings"."taxes" = $3 AND "listings"."latitude" = $4 AND "listings"."longitude" = $5 LIMIT $6[0m  [["rent", 1875], ["address", "10 Creston Ave, Union, NJ"], ["taxes", 6022], ["latitude", "40.716769"], ["longitude", "-74.268704"], ["LIMIT", 1]]
+  [1m[36mUserListing Load (50.5ms)[0m  [1m[34mSELECT "user_listings".* FROM "user_listings"[0m
+  [1m[36mUser Load (43.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 1167ms (Views: 6.4ms | ActiveRecord: 692.6ms)
+
+
+Started POST "/api/v1/user/listings" for 127.0.0.1 at 2017-09-28 16:14:39 -0400
+Processing by Api::V1::UserListingsController#create as JSON
+  Parameters: {"0"=>{"zpid"=>"40084043", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/10-Creston-Ave-Union-NJ-07083/40084043_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/10-Creston-Ave-Union-NJ-07083/40084043_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/40084043_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/40084043_zpid/"}, "address"=>{"street"=>"10 Creston Ave", "zipcode"=>"07083", "city"=>"Union", "state"=>"NJ", "latitude"=>"40.716769", "longitude"=>"-74.268704"}, "FIPScounty"=>"34039", "useCode"=>"SingleFamily", "taxAssessmentYear"=>"2017", "taxAssessment"=>"33200.0", "yearBuilt"=>"1927", "lotSizeSqFt"=>"3101", "bathrooms"=>"2.0", "bedrooms"=>"3", "zestimate"=>{"amount"=>"235597", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-5485", "valuationRange"=>{"low"=>"204969", "high"=>"252089"}, "percentile"=>"0"}, "rentzestimate"=>{"amount"=>"1875", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-3", "valuationRange"=>{"low"=>"1406", "high"=>"2494"}}, "localRealEstate"=>{"region"=>{"name"=>"Vauxhall", "id"=>"22667", "type"=>"neighborhood", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Union/Vauxhall/r_22667/", "forSaleByOwner"=>"http://www.zillow.com/vauxhall-union-nj/fsbo/", "forSale"=>"http://www.zillow.com/vauxhall-union-nj/"}}}}, "1"=>[{"score"=>"6.0", "zpid"=>"52634084", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/17-Park-Ave-Maplewood-NJ-07040/52634084_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/17-Park-Ave-Maplewood-NJ-07040/52634084_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52634084_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52634084_zpid/"}, "address"=>{"street"=>"17 Park Ave", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.723917", "longitude"=>"-74.275822"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"395700.0", "yearBuilt"=>"1921", "lotSizeSqFt"=>"6098", "finishedSqFt"=>"1621", "bathrooms"=>"1.0", "bedrooms"=>"3", "lastSoldDate"=>"03/15/2017", "lastSoldPrice"=>"250000", "zestimate"=>{"amount"=>"421636", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-1999", "valuationRange"=>{"low"=>"261414", "high"=>"489098"}, "percentile"=>"43"}, "rentzestimate"=>{"amount"=>"2900", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"13", "valuationRange"=>{"low"=>"1856", "high"=>"3596"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}, {"score"=>"12.0", "zpid"=>"52635133", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/30-Yale-St-Maplewood-NJ-07040/52635133_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/30-Yale-St-Maplewood-NJ-07040/52635133_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52635133_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52635133_zpid/"}, "address"=>{"street"=>"30 Yale St", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.723369", "longitude"=>"-74.268005"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"536400.0", "yearBuilt"=>"1921", "lotSizeSqFt"=>"7501", "finishedSqFt"=>"1759", "lastSoldDate"=>"03/07/2017", "lastSoldPrice"=>"442000", "zestimate"=>{"amount"=>"530780", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"6783", "valuationRange"=>{"low"=>"435240", "high"=>"589166"}, "percentile"=>"61"}, "rentzestimate"=>{"amount"=>"3044", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-62", "valuationRange"=>{"low"=>"1705", "high"=>"3896"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}, {"score"=>"4.0", "zpid"=>"40083191", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/1759-Wolbert-Ter-Union-NJ-07083/40083191_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/1759-Wolbert-Ter-Union-NJ-07083/40083191_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/40083191_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/40083191_zpid/"}, "address"=>{"street"=>"1759 Wolbert Ter", "zipcode"=>"07083", "city"=>"Union", "state"=>"NJ", "latitude"=>"40.713731", "longitude"=>"-74.267729"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"46000.0", "yearBuilt"=>"1969", "lotSizeSqFt"=>"4356", "bedrooms"=>"2", "totalRooms"=>"6", "lastSoldDate"=>"09/05/2017", "lastSoldPrice"=>"200000", "zestimate"=>{"amount"=>"204337", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"8525", "valuationRange"=>{"low"=>"194120", "high"=>"228857"}, "percentile"=>"10"}, "rentzestimate"=>{"amount"=>"1850", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-150", "valuationRange"=>{"low"=>"1351", "high"=>"2387"}}, "localRealEstate"=>{"region"=>{"name"=>"Vauxhall", "id"=>"22667", "type"=>"neighborhood", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Union/Vauxhall/r_22667/", "forSaleByOwner"=>"http://www.zillow.com/vauxhall-union-nj/fsbo/", "forSale"=>"http://www.zillow.com/vauxhall-union-nj/"}}}}, {"score"=>"5.0", "zpid"=>"52637953", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/175-Burnett-Ave-Maplewood-NJ-07040/52637953_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/175-Burnett-Ave-Maplewood-NJ-07040/52637953_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52637953_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52637953_zpid/"}, "address"=>{"street"=>"175 Burnett Ave", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.718588", "longitude"=>"-74.264248"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"427900.0", "yearBuilt"=>"1921", "lotSizeSqFt"=>"7549", "finishedSqFt"=>"2314", "bathrooms"=>"2.0", "bedrooms"=>"3", "lastSoldDate"=>"04/24/2017", "lastSoldPrice"=>"285000", "zestimate"=>{"amount"=>"369772", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"1048", "valuationRange"=>{"low"=>"295818", "high"=>"425238"}, "percentile"=>"36"}, "rentzestimate"=>{"amount"=>"2250", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"223", "valuationRange"=>{"low"=>"1508", "high"=>"3195"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}], "2"=>1875, "3"=>{"data"=>{"body"=>"{\"status\":{\"version\":\"1.0.0\",\"code\":0,\"msg\":\"SuccessWithResult\",\"total\":1,\"page\":1,\"pagesize\":10},\"property\":[{\"identifier\":{\"obPropId\":8512829934039,\"fips\":\"34039\",\"apn\":\"1905802000000013\",\"apnOrig\":\"1905802    00013\"},\"lot\":{\"depth\":100,\"frontage\":31,\"lotnum\":\"13\",\"lotsize1\":0.0712,\"lotsize2\":3101,\"lottype\":\"31X100\"},\"area\":{\"blockNum\":\"5802\",\"countrysecsubd\":\"Union County\",\"countyuse1\":\"2\",\"munname\":\"UNION TWP\",\"taxcodearea\":\"19\"},\"address\":{\"country\":\"US\",\"countrySubd\":\"NJ\",\"line1\":\"10 CRESTON AVE\",\"line2\":\"UNION, NJ 07083\",\"locality\":\"Union\",\"matchCode\":\"ExaStr\",\"oneLine\":\"10 CRESTON AVE, UNION, NJ 07083\",\"postal1\":\"07083\",\"postal2\":\"4222\",\"postal3\":\"C004\"},\"location\":{\"accuracy\":\"Street\",\"elevation\":0.0,\"latitude\":\"40.716575\",\"longitude\":\"-74.268880\",\"distance\":0.0,\"geoid\":\"CO34039,CS3474480,DB3416500,MT30004143,ND0001570067,ND0002538275,SB0000103413,SB0000103417,ZI07083\"},\"summary\":{\"absenteeInd\":\"SITUS FROM SALE (OCCUPIED)\",\"propclass\":\"Single Family Residence / Townhouse\",\"proptype\":\"SFR\",\"yearbuilt\":1927,\"propLandUse\":\"SFR\",\"propIndicator\":\"10\"},\"utilities\":{\"wallType\":\"FRAME\"},\"building\":{\"size\":{\"bldgsize\":0,\"grosssize\":0,\"grosssizeadjusted\":0,\"groundfloorsize\":0,\"livingsize\":0,\"universalsize\":0},\"rooms\":{\"bathfixtures\":0,\"baths1qtr\":0,\"baths3qtr\":0,\"bathscalc\":0.0,\"bathsfull\":0,\"bathshalf\":0,\"bathstotal\":0.0,\"beds\":0,\"roomsTotal\":0},\"interior\":{\"bsmtsize\":0,\"fplccount\":0},\"construction\":{\"wallType\":\"FRAME\"},\"parking\":{\"garagetype\":\"UNDEFINED TYPE - 1 CAR GARAGE\",\"prkgSize\":0,\"prkgSpaces\":\"0\",\"prkgType\":\"UNDEFINED TYPE - 1 CAR GARAGE\"},\"summary\":{\"bldgsNum\":1,\"levels\":2,\"unitsCount\":\"0\",\"yearbuilteffective\":0}},\"vintage\":{\"lastModified\":\"2016-4-23\",\"pubDate\":\"2016-5-1\"},\"avm\":{\"eventDate\":\"2017-8-3\",\"amount\":{\"scr\":71,\"value\":248715,\"high\":293484,\"low\":203946,\"valueRange\":89538},\"calculations\":{\"perSizeUnit\":0.0,\"ratioTaxAmt\":41.3,\"ratioTaxValue\":7.49,\"monthlyChgPct\":0.0,\"monthlyChgValue\":0,\"rangePctOfValue\":36.0}},\"sale\":{\"salesearchdate\":\"2015-12-29\",\"saleTransDate\":\"2015-12-29\",\"amount\":{\"saleamt\":253000,\"salerecdate\":\"2016-1-6\",\"saledisclosuretype\":0,\"saledocnum\":\"269184\",\"saletranstype\":\"Resale\"},\"calculation\":{\"priceperbed\":0,\"pricepersizeunit\":0},\"ownershiptransferpercentage\":0,\"resaleornewconstruction\":\"M\",\"cashormortgagepurchase\":\"M\"},\"assessment\":{\"appraised\":{\"apprimprvalue\":0,\"apprlandvalue\":0,\"apprttlvalue\":0},\"assessed\":{\"assdimprpersizeunit\":0.0,\"assdimprvalue\":21100,\"assdlandpersizeunit\":3.9,\"assdlandvalue\":12100,\"assdttlpersizeunit\":0.0,\"assdttlvalue\":33200},\"calculations\":{\"calcimprind\":\"ASSESSED VALUE\",\"calcimprpersizeunit\":0.0,\"calcimprvalue\":21100,\"calclandind\":\"ASSESSED VALUE\",\"calclandpersizeunit\":10.71,\"calclandvalue\":12100,\"calcttlind\":\"ASSESSED VALUE\",\"calcttlvalue\":33200,\"calcvaluepersizeunit\":0.0},\"market\":{\"mktimprvalue\":127724,\"mktlandvalue\":73245,\"mktttlvalue\":200969},\"tax\":{\"taxamt\":6022.01,\"taxpersizeunit\":0.0,\"taxyear\":2016}}}]}", "cookies"=>[], "host"=>"search.onboard-apis.com", "headers"=>{"Server"=>"nginx/1.9.6", "Date"=>"Thu, 28 Sep 2017 20:08:18 GMT", "Content-Type"=>"application/json", "Content-Length"=>"2926", "Connection"=>"keep-alive", "Cache-Control"=>"no-cache", "Pragma"=>"no-cache", "Expires"=>"-1", "X-AspNet-Version"=>"4.0.30319", "X-Powered-By"=>"ASP.NET", "Access-Control-Allow-Origin"=>"*", "Access-Control-Allow-Credentials"=>"true"}, "path"=>"/propertyapi/v1.0.0/allevents/detail", "port"=>443, "status"=>200, "status_line"=>"HTTP/1.1 200 OK\r\n", "reason_phrase"=>"OK", "remote_ip"=>"8.26.65.193", "local_port"=>60956, "local_address"=>"192.168.6.7"}, "body"=>"{\"status\":{\"version\":\"1.0.0\",\"code\":0,\"msg\":\"SuccessWithResult\",\"total\":1,\"page\":1,\"pagesize\":10},\"property\":[{\"identifier\":{\"obPropId\":8512829934039,\"fips\":\"34039\",\"apn\":\"1905802000000013\",\"apnOrig\":\"1905802    00013\"},\"lot\":{\"depth\":100,\"frontage\":31,\"lotnum\":\"13\",\"lotsize1\":0.0712,\"lotsize2\":3101,\"lottype\":\"31X100\"},\"area\":{\"blockNum\":\"5802\",\"countrysecsubd\":\"Union County\",\"countyuse1\":\"2\",\"munname\":\"UNION TWP\",\"taxcodearea\":\"19\"},\"address\":{\"country\":\"US\",\"countrySubd\":\"NJ\",\"line1\":\"10 CRESTON AVE\",\"line2\":\"UNION, NJ 07083\",\"locality\":\"Union\",\"matchCode\":\"ExaStr\",\"oneLine\":\"10 CRESTON AVE, UNION, NJ 07083\",\"postal1\":\"07083\",\"postal2\":\"4222\",\"postal3\":\"C004\"},\"location\":{\"accuracy\":\"Street\",\"elevation\":0.0,\"latitude\":\"40.716575\",\"longitude\":\"-74.268880\",\"distance\":0.0,\"geoid\":\"CO34039,CS3474480,DB3416500,MT30004143,ND0001570067,ND0002538275,SB0000103413,SB0000103417,ZI07083\"},\"summary\":{\"absenteeInd\":\"SITUS FROM SALE (OCCUPIED)\",\"propclass\":\"Single Family Residence / Townhouse\",\"proptype\":\"SFR\",\"yearbuilt\":1927,\"propLandUse\":\"SFR\",\"propIndicator\":\"10\"},\"utilities\":{\"wallType\":\"FRAME\"},\"building\":{\"size\":{\"bldgsize\":0,\"grosssize\":0,\"grosssizeadjusted\":0,\"groundfloorsize\":0,\"livingsize\":0,\"universalsize\":0},\"rooms\":{\"bathfixtures\":0,\"baths1qtr\":0,\"baths3qtr\":0,\"bathscalc\":0.0,\"bathsfull\":0,\"bathshalf\":0,\"bathstotal\":0.0,\"beds\":0,\"roomsTotal\":0},\"interior\":{\"bsmtsize\":0,\"fplccount\":0},\"construction\":{\"wallType\":\"FRAME\"},\"parking\":{\"garagetype\":\"UNDEFINED TYPE - 1 CAR GARAGE\",\"prkgSize\":0,\"prkgSpaces\":\"0\",\"prkgType\":\"UNDEFINED TYPE - 1 CAR GARAGE\"},\"summary\":{\"bldgsNum\":1,\"levels\":2,\"unitsCount\":\"0\",\"yearbuilteffective\":0}},\"vintage\":{\"lastModified\":\"2016-4-23\",\"pubDate\":\"2016-5-1\"},\"avm\":{\"eventDate\":\"2017-8-3\",\"amount\":{\"scr\":71,\"value\":248715,\"high\":293484,\"low\":203946,\"valueRange\":89538},\"calculations\":{\"perSizeUnit\":0.0,\"ratioTaxAmt\":41.3,\"ratioTaxValue\":7.49,\"monthlyChgPct\":0.0,\"monthlyChgValue\":0,\"rangePctOfValue\":36.0}},\"sale\":{\"salesearchdate\":\"2015-12-29\",\"saleTransDate\":\"2015-12-29\",\"amount\":{\"saleamt\":253000,\"salerecdate\":\"2016-1-6\",\"saledisclosuretype\":0,\"saledocnum\":\"269184\",\"saletranstype\":\"Resale\"},\"calculation\":{\"priceperbed\":0,\"pricepersizeunit\":0},\"ownershiptransferpercentage\":0,\"resaleornewconstruction\":\"M\",\"cashormortgagepurchase\":\"M\"},\"assessment\":{\"appraised\":{\"apprimprvalue\":0,\"apprlandvalue\":0,\"apprttlvalue\":0},\"assessed\":{\"assdimprpersizeunit\":0.0,\"assdimprvalue\":21100,\"assdlandpersizeunit\":3.9,\"assdlandvalue\":12100,\"assdttlpersizeunit\":0.0,\"assdttlvalue\":33200},\"calculations\":{\"calcimprind\":\"ASSESSED VALUE\",\"calcimprpersizeunit\":0.0,\"calcimprvalue\":21100,\"calclandind\":\"ASSESSED VALUE\",\"calclandpersizeunit\":10.71,\"calclandvalue\":12100,\"calcttlind\":\"ASSESSED VALUE\",\"calcttlvalue\":33200,\"calcvaluepersizeunit\":0.0},\"market\":{\"mktimprvalue\":127724,\"mktlandvalue\":73245,\"mktttlvalue\":200969},\"tax\":{\"taxamt\":6022.01,\"taxpersizeunit\":0.0,\"taxyear\":2016}}}]}", "headers"=>{"Server"=>"nginx/1.9.6", "Date"=>"Thu, 28 Sep 2017 20:08:18 GMT", "Content-Type"=>"application/json", "Content-Length"=>"2926", "Connection"=>"keep-alive", "Cache-Control"=>"no-cache", "Pragma"=>"no-cache", "Expires"=>"-1", "X-AspNet-Version"=>"4.0.30319", "X-Powered-By"=>"ASP.NET", "Access-Control-Allow-Origin"=>"*", "Access-Control-Allow-Credentials"=>"true"}, "status"=>200, "remote_ip"=>"8.26.65.193", "local_port"=>60956, "local_address"=>"192.168.6.7"}, "data"=>"", "history"=>{"match"=>{"path"=>"/listing/:address", "url"=>"/listing/10 Vauxhall Road, Union, NJ, United States", "isExact"=>true, "params"=>{"address"=>"10 Vauxhall Road, Union, NJ, United States"}}, "location"=>{"pathname"=>"/listing/10 Vauxhall Road, Union, NJ, United States", "search"=>"", "hash"=>"", "key"=>"d1eipy"}, "history"=>{"length"=>50, "action"=>"POP", "location"=>{"pathname"=>"/listing/10 Vauxhall Road, Union, NJ, United States", "search"=>"", "hash"=>"", "key"=>"d1eipy"}}}, "user_listing"=>{}}
+  [1m[36mListing Load (28.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."rent" = $1 AND "listings"."address" = $2 AND "listings"."taxes" = $3 AND "listings"."latitude" = $4 AND "listings"."longitude" = $5 LIMIT $6[0m  [["rent", 1875], ["address", "10 Creston Ave, Union, NJ"], ["taxes", 6022], ["latitude", "40.716769"], ["longitude", "-74.268704"], ["LIMIT", 1]]
+  [1m[36mUserListing Load (4.4ms)[0m  [1m[34mSELECT "user_listings".* FROM "user_listings"[0m
+  [1m[36mUser Load (5.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 410ms (Views: 9.3ms | ActiveRecord: 38.3ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 16:14:46 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mListing Load (15.5ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 2]]
+Completed 200 OK in 404ms (Views: 185.4ms | ActiveRecord: 19.2ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:14:47 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 154ms (Views: 65.7ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:15:19 -0400
+Processing by Api::V1::UsersController#save_financials as JSON
+  Parameters: {"average_annual_income"=>"0", "credit_score"=>"234", "assets"=>"234234234", "total_debt"=>"234234", "user"=>{"average_annual_income"=>"0", "credit_score"=>"234", "assets"=>"234234234", "total_debt"=>"234234"}}
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (2.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (42.2ms)[0m  [1m[33mUPDATE "users" SET "assets" = $1, "average_annual_income" = $2, "credit_score" = $3, "total_debt" = $4, "updated_at" = $5 WHERE "users"."id" = $6[0m  [["assets", "234234234"], ["average_annual_income", "0"], ["credit_score", "234"], ["total_debt", "234234"], ["updated_at", "2017-09-28 20:15:20.380541"], ["id", 2]]
+  [1m[35m (637.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 1283ms (Views: 33.9ms | ActiveRecord: 688.0ms)
+
+
+Started GET "/api/v1/listings/10%20Creston%20Ave,%20Union,%20NJ" for 127.0.0.1 at 2017-09-28 16:15:25 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Creston Ave, Union, NJ"}
+Started GET "/api/v1/listings/10%20Creston%20Ave,%20Union,%20NJ" for 127.0.0.1 at 2017-09-28 16:15:28 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Creston Ave, Union, NJ"}
+Completed 500 Internal Server Error in 7593ms (ActiveRecord: 0.0ms)
+
+
+  
+REXML::ParseException (Declarations can only occur in the doctype declaration.
+Line: 74
+Position: 2859
+Last 80 unconsumed characters:
+<!doctype html> <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![en):
+  
+app/controllers/api/v1/listings_controller.rb:9:in `get_listing'
+Completed 200 OK in 12983ms (Views: 800.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:15:42 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (21.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 268ms (Views: 109.1ms | ActiveRecord: 21.3ms)
+
+
+Started GET "/api/v1/listings/10%20Creston%20Ave,%20Union,%20NJ" for 127.0.0.1 at 2017-09-28 16:19:30 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Creston Ave, Union, NJ"}
+Completed 200 OK in 21567ms (Views: 993.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Creston%20Ave,%20Union,%20NJ" for 127.0.0.1 at 2017-09-28 16:19:56 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Creston Ave, Union, NJ"}
+Completed 200 OK in 20813ms (Views: 347.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:20:18 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 224ms (Views: 100.6ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/api/v1/listings/10%20Creston%20Ave,%20Union,%20NJ" for 127.0.0.1 at 2017-09-28 16:39:56 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Creston Ave, Union, NJ"}
+Completed 200 OK in 7191ms (Views: 244.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:40:08 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 146ms (Views: 26.9ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/api/v1/listings/10%20Main%20Street,%20West%20Orange,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 16:40:41 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Main Street, West Orange, NJ, United States"}
+Completed 500 Internal Server Error in 1850ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:10:in `get_listing'
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 16:40:53 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 5785ms (Views: 206.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:40:59 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (3.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 333ms (Views: 231.8ms | ActiveRecord: 3.7ms)
+
+
+Started POST "/api/v1/user/listings" for 127.0.0.1 at 2017-09-28 16:41:33 -0400
+Processing by Api::V1::UserListingsController#create as JSON
+  Parameters: {"0"=>{"zpid"=>"40084043", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/10-Creston-Ave-Union-NJ-07083/40084043_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/10-Creston-Ave-Union-NJ-07083/40084043_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/40084043_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/40084043_zpid/"}, "address"=>{"street"=>"10 Creston Ave", "zipcode"=>"07083", "city"=>"Union", "state"=>"NJ", "latitude"=>"40.716769", "longitude"=>"-74.268704"}, "FIPScounty"=>"34039", "useCode"=>"SingleFamily", "taxAssessmentYear"=>"2017", "taxAssessment"=>"33200.0", "yearBuilt"=>"1927", "lotSizeSqFt"=>"3101", "bathrooms"=>"2.0", "bedrooms"=>"3", "zestimate"=>{"amount"=>"235597", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-5485", "valuationRange"=>{"low"=>"204969", "high"=>"252089"}, "percentile"=>"0"}, "rentzestimate"=>{"amount"=>"1875", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-3", "valuationRange"=>{"low"=>"1406", "high"=>"2494"}}, "localRealEstate"=>{"region"=>{"name"=>"Vauxhall", "id"=>"22667", "type"=>"neighborhood", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Union/Vauxhall/r_22667/", "forSaleByOwner"=>"http://www.zillow.com/vauxhall-union-nj/fsbo/", "forSale"=>"http://www.zillow.com/vauxhall-union-nj/"}}}}, "1"=>[{"score"=>"6.0", "zpid"=>"52634084", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/17-Park-Ave-Maplewood-NJ-07040/52634084_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/17-Park-Ave-Maplewood-NJ-07040/52634084_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52634084_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52634084_zpid/"}, "address"=>{"street"=>"17 Park Ave", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.723917", "longitude"=>"-74.275822"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"395700.0", "yearBuilt"=>"1921", "lotSizeSqFt"=>"6098", "finishedSqFt"=>"1621", "bathrooms"=>"1.0", "bedrooms"=>"3", "lastSoldDate"=>"03/15/2017", "lastSoldPrice"=>"250000", "zestimate"=>{"amount"=>"421636", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-1999", "valuationRange"=>{"low"=>"261414", "high"=>"489098"}, "percentile"=>"43"}, "rentzestimate"=>{"amount"=>"2900", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"13", "valuationRange"=>{"low"=>"1856", "high"=>"3596"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}, {"score"=>"12.0", "zpid"=>"52635133", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/30-Yale-St-Maplewood-NJ-07040/52635133_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/30-Yale-St-Maplewood-NJ-07040/52635133_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52635133_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52635133_zpid/"}, "address"=>{"street"=>"30 Yale St", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.723369", "longitude"=>"-74.268005"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"536400.0", "yearBuilt"=>"1921", "lotSizeSqFt"=>"7501", "finishedSqFt"=>"1759", "lastSoldDate"=>"03/07/2017", "lastSoldPrice"=>"442000", "zestimate"=>{"amount"=>"530780", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"6783", "valuationRange"=>{"low"=>"435240", "high"=>"589166"}, "percentile"=>"61"}, "rentzestimate"=>{"amount"=>"3044", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-62", "valuationRange"=>{"low"=>"1705", "high"=>"3896"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}, {"score"=>"5.0", "zpid"=>"52637953", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/175-Burnett-Ave-Maplewood-NJ-07040/52637953_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/175-Burnett-Ave-Maplewood-NJ-07040/52637953_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52637953_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52637953_zpid/"}, "address"=>{"street"=>"175 Burnett Ave", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.718588", "longitude"=>"-74.264248"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"427900.0", "yearBuilt"=>"1921", "lotSizeSqFt"=>"7549", "finishedSqFt"=>"2314", "bathrooms"=>"2.0", "bedrooms"=>"3", "lastSoldDate"=>"04/24/2017", "lastSoldPrice"=>"285000", "zestimate"=>{"amount"=>"369772", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"1048", "valuationRange"=>{"low"=>"295818", "high"=>"425238"}, "percentile"=>"36"}, "rentzestimate"=>{"amount"=>"2250", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"223", "valuationRange"=>{"low"=>"1508", "high"=>"3195"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}, {"score"=>"10.0", "zpid"=>"52637895", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/23-Wellesley-St-Maplewood-NJ-07040/52637895_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/23-Wellesley-St-Maplewood-NJ-07040/52637895_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52637895_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52637895_zpid/"}, "address"=>{"street"=>"23 Wellesley St", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.720479", "longitude"=>"-74.263888"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"262500.0", "yearBuilt"=>"1913", "lotSizeSqFt"=>"2500", "finishedSqFt"=>"1198", "lastSoldDate"=>"11/10/2016", "lastSoldPrice"=>"137500", "zestimate"=>{"amount"=>"179523", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-5866", "valuationRange"=>{"low"=>"149004", "high"=>"222609"}, "percentile"=>"3"}, "rentzestimate"=>{"amount"=>"2200", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-99", "valuationRange"=>{"low"=>"1518", "high"=>"3058"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}], "2"=>1875, "3"=>{"data"=>{"body"=>"{\"status\":{\"version\":\"1.0.0\",\"code\":0,\"msg\":\"SuccessWithResult\",\"total\":1,\"page\":1,\"pagesize\":10},\"property\":[{\"identifier\":{\"obPropId\":8512829934039,\"fips\":\"34039\",\"apn\":\"1905802000000013\",\"apnOrig\":\"1905802    00013\"},\"lot\":{\"depth\":100,\"frontage\":31,\"lotnum\":\"13\",\"lotsize1\":0.0712,\"lotsize2\":3101,\"lottype\":\"31X100\"},\"area\":{\"blockNum\":\"5802\",\"countrysecsubd\":\"Union County\",\"countyuse1\":\"2\",\"munname\":\"UNION TWP\",\"taxcodearea\":\"19\"},\"address\":{\"country\":\"US\",\"countrySubd\":\"NJ\",\"line1\":\"10 CRESTON AVE\",\"line2\":\"UNION, NJ 07083\",\"locality\":\"Union\",\"matchCode\":\"ExaStr\",\"oneLine\":\"10 CRESTON AVE, UNION, NJ 07083\",\"postal1\":\"07083\",\"postal2\":\"4222\",\"postal3\":\"C004\"},\"location\":{\"accuracy\":\"Street\",\"elevation\":0.0,\"latitude\":\"40.716575\",\"longitude\":\"-74.268880\",\"distance\":0.0,\"geoid\":\"CO34039,CS3474480,DB3416500,MT30004143,ND0001570067,ND0002538275,SB0000103413,SB0000103417,ZI07083\"},\"summary\":{\"absenteeInd\":\"SITUS FROM SALE (OCCUPIED)\",\"propclass\":\"Single Family Residence / Townhouse\",\"proptype\":\"SFR\",\"yearbuilt\":1927,\"propLandUse\":\"SFR\",\"propIndicator\":\"10\"},\"utilities\":{\"wallType\":\"FRAME\"},\"building\":{\"size\":{\"bldgsize\":0,\"grosssize\":0,\"grosssizeadjusted\":0,\"groundfloorsize\":0,\"livingsize\":0,\"universalsize\":0},\"rooms\":{\"bathfixtures\":0,\"baths1qtr\":0,\"baths3qtr\":0,\"bathscalc\":0.0,\"bathsfull\":0,\"bathshalf\":0,\"bathstotal\":0.0,\"beds\":0,\"roomsTotal\":0},\"interior\":{\"bsmtsize\":0,\"fplccount\":0},\"construction\":{\"wallType\":\"FRAME\"},\"parking\":{\"garagetype\":\"UNDEFINED TYPE - 1 CAR GARAGE\",\"prkgSize\":0,\"prkgSpaces\":\"0\",\"prkgType\":\"UNDEFINED TYPE - 1 CAR GARAGE\"},\"summary\":{\"bldgsNum\":1,\"levels\":2,\"unitsCount\":\"0\",\"yearbuilteffective\":0}},\"vintage\":{\"lastModified\":\"2016-4-23\",\"pubDate\":\"2016-5-1\"},\"avm\":{\"eventDate\":\"2017-8-3\",\"amount\":{\"scr\":71,\"value\":248715,\"high\":293484,\"low\":203946,\"valueRange\":89538},\"calculations\":{\"perSizeUnit\":0.0,\"ratioTaxAmt\":41.3,\"ratioTaxValue\":7.49,\"monthlyChgPct\":0.0,\"monthlyChgValue\":0,\"rangePctOfValue\":36.0}},\"sale\":{\"salesearchdate\":\"2015-12-29\",\"saleTransDate\":\"2015-12-29\",\"amount\":{\"saleamt\":253000,\"salerecdate\":\"2016-1-6\",\"saledisclosuretype\":0,\"saledocnum\":\"269184\",\"saletranstype\":\"Resale\"},\"calculation\":{\"priceperbed\":0,\"pricepersizeunit\":0},\"ownershiptransferpercentage\":0,\"resaleornewconstruction\":\"M\",\"cashormortgagepurchase\":\"M\"},\"assessment\":{\"appraised\":{\"apprimprvalue\":0,\"apprlandvalue\":0,\"apprttlvalue\":0},\"assessed\":{\"assdimprpersizeunit\":0.0,\"assdimprvalue\":21100,\"assdlandpersizeunit\":3.9,\"assdlandvalue\":12100,\"assdttlpersizeunit\":0.0,\"assdttlvalue\":33200},\"calculations\":{\"calcimprind\":\"ASSESSED VALUE\",\"calcimprpersizeunit\":0.0,\"calcimprvalue\":21100,\"calclandind\":\"ASSESSED VALUE\",\"calclandpersizeunit\":10.71,\"calclandvalue\":12100,\"calcttlind\":\"ASSESSED VALUE\",\"calcttlvalue\":33200,\"calcvaluepersizeunit\":0.0},\"market\":{\"mktimprvalue\":127724,\"mktlandvalue\":73245,\"mktttlvalue\":200969},\"tax\":{\"taxamt\":6022.01,\"taxpersizeunit\":0.0,\"taxyear\":2016}}}]}", "cookies"=>[], "host"=>"search.onboard-apis.com", "headers"=>{"Server"=>"nginx/1.9.6", "Date"=>"Thu, 28 Sep 2017 20:40:59 GMT", "Content-Type"=>"application/json", "Content-Length"=>"2926", "Connection"=>"keep-alive", "Cache-Control"=>"no-cache", "Pragma"=>"no-cache", "Expires"=>"-1", "X-AspNet-Version"=>"4.0.30319", "X-Powered-By"=>"ASP.NET", "Access-Control-Allow-Origin"=>"*", "Access-Control-Allow-Credentials"=>"true"}, "path"=>"/propertyapi/v1.0.0/allevents/detail", "port"=>443, "status"=>200, "status_line"=>"HTTP/1.1 200 OK\r\n", "reason_phrase"=>"OK", "remote_ip"=>"8.26.65.193", "local_port"=>52273, "local_address"=>"192.168.6.7"}, "body"=>"{\"status\":{\"version\":\"1.0.0\",\"code\":0,\"msg\":\"SuccessWithResult\",\"total\":1,\"page\":1,\"pagesize\":10},\"property\":[{\"identifier\":{\"obPropId\":8512829934039,\"fips\":\"34039\",\"apn\":\"1905802000000013\",\"apnOrig\":\"1905802    00013\"},\"lot\":{\"depth\":100,\"frontage\":31,\"lotnum\":\"13\",\"lotsize1\":0.0712,\"lotsize2\":3101,\"lottype\":\"31X100\"},\"area\":{\"blockNum\":\"5802\",\"countrysecsubd\":\"Union County\",\"countyuse1\":\"2\",\"munname\":\"UNION TWP\",\"taxcodearea\":\"19\"},\"address\":{\"country\":\"US\",\"countrySubd\":\"NJ\",\"line1\":\"10 CRESTON AVE\",\"line2\":\"UNION, NJ 07083\",\"locality\":\"Union\",\"matchCode\":\"ExaStr\",\"oneLine\":\"10 CRESTON AVE, UNION, NJ 07083\",\"postal1\":\"07083\",\"postal2\":\"4222\",\"postal3\":\"C004\"},\"location\":{\"accuracy\":\"Street\",\"elevation\":0.0,\"latitude\":\"40.716575\",\"longitude\":\"-74.268880\",\"distance\":0.0,\"geoid\":\"CO34039,CS3474480,DB3416500,MT30004143,ND0001570067,ND0002538275,SB0000103413,SB0000103417,ZI07083\"},\"summary\":{\"absenteeInd\":\"SITUS FROM SALE (OCCUPIED)\",\"propclass\":\"Single Family Residence / Townhouse\",\"proptype\":\"SFR\",\"yearbuilt\":1927,\"propLandUse\":\"SFR\",\"propIndicator\":\"10\"},\"utilities\":{\"wallType\":\"FRAME\"},\"building\":{\"size\":{\"bldgsize\":0,\"grosssize\":0,\"grosssizeadjusted\":0,\"groundfloorsize\":0,\"livingsize\":0,\"universalsize\":0},\"rooms\":{\"bathfixtures\":0,\"baths1qtr\":0,\"baths3qtr\":0,\"bathscalc\":0.0,\"bathsfull\":0,\"bathshalf\":0,\"bathstotal\":0.0,\"beds\":0,\"roomsTotal\":0},\"interior\":{\"bsmtsize\":0,\"fplccount\":0},\"construction\":{\"wallType\":\"FRAME\"},\"parking\":{\"garagetype\":\"UNDEFINED TYPE - 1 CAR GARAGE\",\"prkgSize\":0,\"prkgSpaces\":\"0\",\"prkgType\":\"UNDEFINED TYPE - 1 CAR GARAGE\"},\"summary\":{\"bldgsNum\":1,\"levels\":2,\"unitsCount\":\"0\",\"yearbuilteffective\":0}},\"vintage\":{\"lastModified\":\"2016-4-23\",\"pubDate\":\"2016-5-1\"},\"avm\":{\"eventDate\":\"2017-8-3\",\"amount\":{\"scr\":71,\"value\":248715,\"high\":293484,\"low\":203946,\"valueRange\":89538},\"calculations\":{\"perSizeUnit\":0.0,\"ratioTaxAmt\":41.3,\"ratioTaxValue\":7.49,\"monthlyChgPct\":0.0,\"monthlyChgValue\":0,\"rangePctOfValue\":36.0}},\"sale\":{\"salesearchdate\":\"2015-12-29\",\"saleTransDate\":\"2015-12-29\",\"amount\":{\"saleamt\":253000,\"salerecdate\":\"2016-1-6\",\"saledisclosuretype\":0,\"saledocnum\":\"269184\",\"saletranstype\":\"Resale\"},\"calculation\":{\"priceperbed\":0,\"pricepersizeunit\":0},\"ownershiptransferpercentage\":0,\"resaleornewconstruction\":\"M\",\"cashormortgagepurchase\":\"M\"},\"assessment\":{\"appraised\":{\"apprimprvalue\":0,\"apprlandvalue\":0,\"apprttlvalue\":0},\"assessed\":{\"assdimprpersizeunit\":0.0,\"assdimprvalue\":21100,\"assdlandpersizeunit\":3.9,\"assdlandvalue\":12100,\"assdttlpersizeunit\":0.0,\"assdttlvalue\":33200},\"calculations\":{\"calcimprind\":\"ASSESSED VALUE\",\"calcimprpersizeunit\":0.0,\"calcimprvalue\":21100,\"calclandind\":\"ASSESSED VALUE\",\"calclandpersizeunit\":10.71,\"calclandvalue\":12100,\"calcttlind\":\"ASSESSED VALUE\",\"calcttlvalue\":33200,\"calcvaluepersizeunit\":0.0},\"market\":{\"mktimprvalue\":127724,\"mktlandvalue\":73245,\"mktttlvalue\":200969},\"tax\":{\"taxamt\":6022.01,\"taxpersizeunit\":0.0,\"taxyear\":2016}}}]}", "headers"=>{"Server"=>"nginx/1.9.6", "Date"=>"Thu, 28 Sep 2017 20:40:59 GMT", "Content-Type"=>"application/json", "Content-Length"=>"2926", "Connection"=>"keep-alive", "Cache-Control"=>"no-cache", "Pragma"=>"no-cache", "Expires"=>"-1", "X-AspNet-Version"=>"4.0.30319", "X-Powered-By"=>"ASP.NET", "Access-Control-Allow-Origin"=>"*", "Access-Control-Allow-Credentials"=>"true"}, "status"=>200, "remote_ip"=>"8.26.65.193", "local_port"=>52273, "local_address"=>"192.168.6.7"}, "data"=>"", "history"=>{"match"=>{"path"=>"/listing/:address", "url"=>"/listing/10 Vauxhall Road, Union, NJ, United States", "isExact"=>true, "params"=>{"address"=>"10 Vauxhall Road, Union, NJ, United States"}}, "location"=>{"pathname"=>"/listing/10 Vauxhall Road, Union, NJ, United States", "search"=>"", "hash"=>"", "key"=>"rzfxpi"}, "history"=>{"length"=>50, "action"=>"PUSH", "location"=>{"pathname"=>"/listing/10 Vauxhall Road, Union, NJ, United States", "search"=>"", "hash"=>"", "key"=>"rzfxpi"}}}, "user_listing"=>{}}
+  [1m[36mListing Load (7.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."rent" = $1 AND "listings"."address" = $2 AND "listings"."taxes" = $3 AND "listings"."latitude" = $4 AND "listings"."longitude" = $5 LIMIT $6[0m  [["rent", 1875], ["address", "10 Creston Ave, Union, NJ"], ["taxes", 6022], ["latitude", "40.716769"], ["longitude", "-74.268704"], ["LIMIT", 1]]
+  [1m[36mUserListing Load (2.4ms)[0m  [1m[34mSELECT "user_listings".* FROM "user_listings"[0m
+  [1m[36mUser Load (3.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 536ms (Views: 5.3ms | ActiveRecord: 13.6ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 16:41:41 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (29.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mListing Load (25.1ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 2]]
+Completed 200 OK in 564ms (Views: 378.7ms | ActiveRecord: 57.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:41:42 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (7.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 246ms (Views: 70.6ms | ActiveRecord: 7.2ms)
+
+
+Started POST "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:42:05 -0400
+Processing by Api::V1::UsersController#save_financials as JSON
+  Parameters: {"average_annual_income"=>"500000", "credit_score"=>"650", "assets"=>"890000", "total_debt"=>"89999", "user"=>{"average_annual_income"=>"500000", "credit_score"=>"650", "assets"=>"890000", "total_debt"=>"89999"}}
+  [1m[36mUser Load (5.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (2.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (15.8ms)[0m  [1m[33mUPDATE "users" SET "assets" = $1, "average_annual_income" = $2, "credit_score" = $3, "total_debt" = $4, "updated_at" = $5 WHERE "users"."id" = $6[0m  [["assets", "890000"], ["average_annual_income", "500000"], ["credit_score", "650"], ["total_debt", "89999"], ["updated_at", "2017-09-28 20:42:05.368448"], ["id", 2]]
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 652ms (Views: 257.1ms | ActiveRecord: 29.5ms)
+
+
+Started GET "/api/v1/listings/10%20Creston%20Ave,%20Union,%20NJ" for 127.0.0.1 at 2017-09-28 16:42:10 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Creston Ave, Union, NJ"}
+Started GET "/api/v1/listings/10%20Creston%20Ave,%20Union,%20NJ" for 127.0.0.1 at 2017-09-28 16:42:16 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Creston Ave, Union, NJ"}
+Completed 200 OK in 16282ms (Views: 735.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 17303ms (Views: 338.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:42:34 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (13.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 576ms (Views: 155.8ms | ActiveRecord: 13.8ms)
+
+
+Started GET "/api/v1/listings/17%20Park%20Ave,%20Maplewood,%20NJ" for 127.0.0.1 at 2017-09-28 16:44:43 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"17 Park Ave, Maplewood, NJ"}
+Completed 200 OK in 12006ms (Views: 344.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:44:55 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (56.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 547ms (Views: 113.9ms | ActiveRecord: 56.8ms)
+
+
+Started POST "/api/v1/user/listings" for 127.0.0.1 at 2017-09-28 16:48:56 -0400
+Processing by Api::V1::UserListingsController#create as JSON
+  Parameters: {"0"=>{"zpid"=>"52634084", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/17-Park-Ave-Maplewood-NJ-07040/52634084_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/17-Park-Ave-Maplewood-NJ-07040/52634084_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52634084_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52634084_zpid/"}, "address"=>{"street"=>"17 Park Ave", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.723917", "longitude"=>"-74.275822"}, "FIPScounty"=>"34013", "useCode"=>"SingleFamily", "taxAssessmentYear"=>"2017", "taxAssessment"=>"395700.0", "yearBuilt"=>"1921", "lotSizeSqFt"=>"6098", "finishedSqFt"=>"1621", "bathrooms"=>"1.0", "bedrooms"=>"3", "lastSoldDate"=>"03/15/2017", "lastSoldPrice"=>"250000", "zestimate"=>{"amount"=>"421636", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-1999", "valuationRange"=>{"low"=>"261414", "high"=>"489098"}, "percentile"=>"0"}, "rentzestimate"=>{"amount"=>"2900", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"13", "valuationRange"=>{"low"=>"1856", "high"=>"3596"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}, "1"=>[{"score"=>"10.0", "zpid"=>"52635189", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/21-Rutgers-St-Maplewood-NJ-07040/52635189_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/21-Rutgers-St-Maplewood-NJ-07040/52635189_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52635189_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52635189_zpid/"}, "address"=>{"street"=>"21 Rutgers St", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.723208", "longitude"=>"-74.266037"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"570700.0", "yearBuilt"=>"1927", "lotSizeSqFt"=>"7405", "finishedSqFt"=>"1802", "bathrooms"=>"2.0", "bedrooms"=>"3", "lastSoldDate"=>"03/31/2017", "lastSoldPrice"=>"649000", "zestimate"=>{"amount"=>"676104", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"5171", "valuationRange"=>{"low"=>"642299", "high"=>"709909"}, "percentile"=>"84"}, "rentzestimate"=>{"amount"=>"3350", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-122", "valuationRange"=>{"low"=>"1876", "high"=>"4188"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}, {"score"=>"13.0", "zpid"=>"52635175", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/22-Oberlin-St-Maplewood-NJ-07040/52635175_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/22-Oberlin-St-Maplewood-NJ-07040/52635175_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52635175_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52635175_zpid/"}, "address"=>{"street"=>"22 Oberlin St", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.723396", "longitude"=>"-74.266513"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"698700.0", "yearBuilt"=>"1929", "lotSizeSqFt"=>"7405", "finishedSqFt"=>"1850", "bathrooms"=>"3.0", "bedrooms"=>"5", "lastSoldDate"=>"12/21/2016", "lastSoldPrice"=>"755100", "zestimate"=>{"amount"=>"750328", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"7973", "valuationRange"=>{"low"=>"705308", "high"=>"787844"}, "percentile"=>"90"}, "rentzestimate"=>{"amount"=>"3900", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"0", "valuationRange"=>{"low"=>"2106", "high"=>"4875"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}, {"score"=>"7.0", "zpid"=>"52635113", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/10-Yale-St-Maplewood-NJ-07040/52635113_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/10-Yale-St-Maplewood-NJ-07040/52635113_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52635113_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52635113_zpid/"}, "address"=>{"street"=>"10 Yale St", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.724727", "longitude"=>"-74.267064"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"556900.0", "yearBuilt"=>"1930", "lotSizeSqFt"=>"7405", "finishedSqFt"=>"1392", "bathrooms"=>"1.0", "bedrooms"=>"3", "totalRooms"=>"7", "lastSoldDate"=>"12/28/2016", "lastSoldPrice"=>"605000", "zestimate"=>{"amount"=>"625690", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"8150", "valuationRange"=>{"low"=>"594406", "high"=>"656974"}, "percentile"=>"79"}, "rentzestimate"=>{"amount"=>"3000", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"13", "valuationRange"=>{"low"=>"1860", "high"=>"3900"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}, {"score"=>"10.0", "zpid"=>"52635111", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/6-Yale-St-Maplewood-NJ-07040/52635111_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/6-Yale-St-Maplewood-NJ-07040/52635111_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/52635111_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/52635111_zpid/"}, "address"=>{"street"=>"6 Yale St", "zipcode"=>"07040", "city"=>"Maplewood", "state"=>"NJ", "latitude"=>"40.724988", "longitude"=>"-74.266945"}, "taxAssessmentYear"=>"2017", "taxAssessment"=>"564500.0", "yearBuilt"=>"1923", "lotSizeSqFt"=>"6098", "finishedSqFt"=>"1824", "bathrooms"=>"2.0", "bedrooms"=>"4", "lastSoldDate"=>"07/06/2017", "lastSoldPrice"=>"695000", "zestimate"=>{"amount"=>"692898", "last_updated"=>"09/27/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"647", "valuationRange"=>{"low"=>"658253", "high"=>"727543"}, "percentile"=>"86"}, "rentzestimate"=>{"amount"=>"3200", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-413", "valuationRange"=>{"low"=>"1920", "high"=>"4192"}}, "localRealEstate"=>{"region"=>{"name"=>"Maplewood", "id"=>"39616", "type"=>"city", "zindexValue"=>"509,100", "links"=>{"overview"=>"http://www.zillow.com/local-info/NJ-Maplewood/r_39616/", "forSaleByOwner"=>"http://www.zillow.com/maplewood-nj/fsbo/", "forSale"=>"http://www.zillow.com/maplewood-nj/"}}}}], "2"=>2900, "3"=>{"data"=>{"body"=>"{\"status\":{\"version\":\"1.0.0\",\"code\":0,\"msg\":\"SuccessWithResult\",\"total\":1,\"page\":1,\"pagesize\":10},\"property\":[{\"identifier\":{\"obPropId\":8321948234013,\"fips\":\"34013\",\"apn\":\"1100022  0500078\",\"apnOrig\":\"1100022  0500078\"},\"lot\":{\"depth\":125,\"frontage\":50,\"lotnum\":\"78\",\"lotsize1\":0.1435,\"lotsize2\":6251,\"lottype\":\"50X125\"},\"area\":{\"blockNum\":\"22.05\",\"countrysecsubd\":\"Essex County\",\"countyuse1\":\"2\",\"munname\":\"MAPLEWOOD TWP\",\"taxcodearea\":\"11\"},\"address\":{\"country\":\"US\",\"countrySubd\":\"NJ\",\"line1\":\"17 PARK AVE\",\"line2\":\"MAPLEWOOD, NJ 07040\",\"locality\":\"Maplewood\",\"matchCode\":\"ExaStr\",\"oneLine\":\"17 PARK AVE, MAPLEWOOD, NJ 07040\",\"postal1\":\"07040\",\"postal2\":\"3406\",\"postal3\":\"C008\"},\"location\":{\"accuracy\":\"Street\",\"elevation\":0.0,\"latitude\":\"40.723837\",\"longitude\":\"-74.275839\",\"distance\":0.0,\"geoid\":\"CO34013,CS3443800,DB3415330,MT30004143,ND0001570067,SB0000103351,SB0000103352,SB0000103359,ZI07040\"},\"summary\":{\"absenteeInd\":\"OWNER OCCUPIED\",\"propclass\":\"Single Family Residence / Townhouse\",\"proptype\":\"SFR\",\"yearbuilt\":1921,\"propLandUse\":\"SFR\",\"propIndicator\":\"10\"},\"utilities\":{\"wallType\":\"FRAME\"},\"building\":{\"size\":{\"bldgsize\":0,\"grosssize\":0,\"grosssizeadjusted\":0,\"groundfloorsize\":0,\"livingsize\":1621,\"sizeInd\":\"LIVING SQFT \",\"universalsize\":1621},\"rooms\":{\"bathfixtures\":0,\"baths1qtr\":0,\"baths3qtr\":0,\"bathscalc\":0.0,\"bathsfull\":0,\"bathshalf\":0,\"bathstotal\":0.0,\"beds\":0,\"roomsTotal\":0},\"interior\":{\"bsmtsize\":0,\"fplccount\":0},\"construction\":{\"wallType\":\"FRAME\"},\"parking\":{\"prkgSize\":0,\"prkgSpaces\":\"0\"},\"summary\":{\"bldgsNum\":1,\"levels\":2,\"unitsCount\":\"0\",\"yearbuilteffective\":0}},\"vintage\":{\"lastModified\":\"2016-4-9\",\"pubDate\":\"2016-5-1\"},\"avm\":{\"eventDate\":\"2017-8-3\",\"amount\":{\"scr\":76,\"value\":427112,\"high\":486908,\"low\":367316,\"valueRange\":119592},\"calculations\":{\"perSizeUnit\":263.49,\"ratioTaxAmt\":29.35,\"ratioTaxValue\":1.08,\"monthlyChgPct\":0.0,\"monthlyChgValue\":0,\"rangePctOfValue\":28.0}},\"sale\":{\"salesearchdate\":\"2017-3-1\",\"saleTransDate\":\"2017-3-1\",\"amount\":{\"saleamt\":250000,\"salerecdate\":\"2017-3-15\",\"saledisclosuretype\":0,\"saledocnum\":\"23362\",\"saletranstype\":\"Resale\"},\"calculation\":{\"priceperbed\":0,\"pricepersizeunit\":174}},\"assessment\":{\"appraised\":{\"apprimprvalue\":0,\"apprlandvalue\":0,\"apprttlvalue\":0},\"assessed\":{\"assdimprpersizeunit\":58.02,\"assdimprvalue\":83200,\"assdlandpersizeunit\":49.99,\"assdlandvalue\":312500,\"assdttlpersizeunit\":275.94,\"assdttlvalue\":395700},\"calculations\":{\"calcimprind\":\"ASSESSED VALUE\",\"calcimprpersizeunit\":58.02,\"calcimprvalue\":83200,\"calclandind\":\"ASSESSED VALUE\",\"calclandpersizeunit\":63.3,\"calclandvalue\":312500,\"calcttlind\":\"ASSESSED VALUE\",\"calcttlvalue\":395700,\"calcvaluepersizeunit\":275.94},\"market\":{\"mktimprvalue\":81649,\"mktlandvalue\":306673,\"mktttlvalue\":388322},\"tax\":{\"taxamt\":14552.07,\"taxpersizeunit\":10.15,\"taxyear\":2016}}}]}", "cookies"=>[], "host"=>"search.onboard-apis.com", "headers"=>{"Server"=>"nginx/1.9.6", "Date"=>"Thu, 28 Sep 2017 20:44:54 GMT", "Content-Type"=>"application/json", "Content-Length"=>"2797", "Connection"=>"keep-alive", "Cache-Control"=>"no-cache", "Pragma"=>"no-cache", "Expires"=>"-1", "X-AspNet-Version"=>"4.0.30319", "X-Powered-By"=>"ASP.NET", "Access-Control-Allow-Origin"=>"*", "Access-Control-Allow-Credentials"=>"true"}, "path"=>"/propertyapi/v1.0.0/allevents/detail", "port"=>443, "status"=>200, "status_line"=>"HTTP/1.1 200 OK\r\n", "reason_phrase"=>"OK", "remote_ip"=>"8.26.65.193", "local_port"=>53247, "local_address"=>"192.168.6.7"}, "body"=>"{\"status\":{\"version\":\"1.0.0\",\"code\":0,\"msg\":\"SuccessWithResult\",\"total\":1,\"page\":1,\"pagesize\":10},\"property\":[{\"identifier\":{\"obPropId\":8321948234013,\"fips\":\"34013\",\"apn\":\"1100022  0500078\",\"apnOrig\":\"1100022  0500078\"},\"lot\":{\"depth\":125,\"frontage\":50,\"lotnum\":\"78\",\"lotsize1\":0.1435,\"lotsize2\":6251,\"lottype\":\"50X125\"},\"area\":{\"blockNum\":\"22.05\",\"countrysecsubd\":\"Essex County\",\"countyuse1\":\"2\",\"munname\":\"MAPLEWOOD TWP\",\"taxcodearea\":\"11\"},\"address\":{\"country\":\"US\",\"countrySubd\":\"NJ\",\"line1\":\"17 PARK AVE\",\"line2\":\"MAPLEWOOD, NJ 07040\",\"locality\":\"Maplewood\",\"matchCode\":\"ExaStr\",\"oneLine\":\"17 PARK AVE, MAPLEWOOD, NJ 07040\",\"postal1\":\"07040\",\"postal2\":\"3406\",\"postal3\":\"C008\"},\"location\":{\"accuracy\":\"Street\",\"elevation\":0.0,\"latitude\":\"40.723837\",\"longitude\":\"-74.275839\",\"distance\":0.0,\"geoid\":\"CO34013,CS3443800,DB3415330,MT30004143,ND0001570067,SB0000103351,SB0000103352,SB0000103359,ZI07040\"},\"summary\":{\"absenteeInd\":\"OWNER OCCUPIED\",\"propclass\":\"Single Family Residence / Townhouse\",\"proptype\":\"SFR\",\"yearbuilt\":1921,\"propLandUse\":\"SFR\",\"propIndicator\":\"10\"},\"utilities\":{\"wallType\":\"FRAME\"},\"building\":{\"size\":{\"bldgsize\":0,\"grosssize\":0,\"grosssizeadjusted\":0,\"groundfloorsize\":0,\"livingsize\":1621,\"sizeInd\":\"LIVING SQFT \",\"universalsize\":1621},\"rooms\":{\"bathfixtures\":0,\"baths1qtr\":0,\"baths3qtr\":0,\"bathscalc\":0.0,\"bathsfull\":0,\"bathshalf\":0,\"bathstotal\":0.0,\"beds\":0,\"roomsTotal\":0},\"interior\":{\"bsmtsize\":0,\"fplccount\":0},\"construction\":{\"wallType\":\"FRAME\"},\"parking\":{\"prkgSize\":0,\"prkgSpaces\":\"0\"},\"summary\":{\"bldgsNum\":1,\"levels\":2,\"unitsCount\":\"0\",\"yearbuilteffective\":0}},\"vintage\":{\"lastModified\":\"2016-4-9\",\"pubDate\":\"2016-5-1\"},\"avm\":{\"eventDate\":\"2017-8-3\",\"amount\":{\"scr\":76,\"value\":427112,\"high\":486908,\"low\":367316,\"valueRange\":119592},\"calculations\":{\"perSizeUnit\":263.49,\"ratioTaxAmt\":29.35,\"ratioTaxValue\":1.08,\"monthlyChgPct\":0.0,\"monthlyChgValue\":0,\"rangePctOfValue\":28.0}},\"sale\":{\"salesearchdate\":\"2017-3-1\",\"saleTransDate\":\"2017-3-1\",\"amount\":{\"saleamt\":250000,\"salerecdate\":\"2017-3-15\",\"saledisclosuretype\":0,\"saledocnum\":\"23362\",\"saletranstype\":\"Resale\"},\"calculation\":{\"priceperbed\":0,\"pricepersizeunit\":174}},\"assessment\":{\"appraised\":{\"apprimprvalue\":0,\"apprlandvalue\":0,\"apprttlvalue\":0},\"assessed\":{\"assdimprpersizeunit\":58.02,\"assdimprvalue\":83200,\"assdlandpersizeunit\":49.99,\"assdlandvalue\":312500,\"assdttlpersizeunit\":275.94,\"assdttlvalue\":395700},\"calculations\":{\"calcimprind\":\"ASSESSED VALUE\",\"calcimprpersizeunit\":58.02,\"calcimprvalue\":83200,\"calclandind\":\"ASSESSED VALUE\",\"calclandpersizeunit\":63.3,\"calclandvalue\":312500,\"calcttlind\":\"ASSESSED VALUE\",\"calcttlvalue\":395700,\"calcvaluepersizeunit\":275.94},\"market\":{\"mktimprvalue\":81649,\"mktlandvalue\":306673,\"mktttlvalue\":388322},\"tax\":{\"taxamt\":14552.07,\"taxpersizeunit\":10.15,\"taxyear\":2016}}}]}", "headers"=>{"Server"=>"nginx/1.9.6", "Date"=>"Thu, 28 Sep 2017 20:44:54 GMT", "Content-Type"=>"application/json", "Content-Length"=>"2797", "Connection"=>"keep-alive", "Cache-Control"=>"no-cache", "Pragma"=>"no-cache", "Expires"=>"-1", "X-AspNet-Version"=>"4.0.30319", "X-Powered-By"=>"ASP.NET", "Access-Control-Allow-Origin"=>"*", "Access-Control-Allow-Credentials"=>"true"}, "status"=>200, "remote_ip"=>"8.26.65.193", "local_port"=>53247, "local_address"=>"192.168.6.7"}, "data"=>"", "history"=>{"match"=>{"path"=>"/listing/:address", "url"=>"/listing/17 Park Ave, Maplewood, NJ", "isExact"=>true, "params"=>{"address"=>"17 Park Ave, Maplewood, NJ"}}, "location"=>{"pathname"=>"/listing/17 Park Ave, Maplewood, NJ", "search"=>"", "hash"=>"", "key"=>"qla4i2"}, "history"=>{"length"=>50, "action"=>"POP", "location"=>{"pathname"=>"/listing/17 Park Ave, Maplewood, NJ", "search"=>"", "hash"=>"", "key"=>"qla4i2"}}}, "user_listing"=>{}}
+  [1m[36mListing Load (3.4ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."rent" = $1 AND "listings"."address" = $2 AND "listings"."taxes" = $3 AND "listings"."latitude" = $4 AND "listings"."longitude" = $5 LIMIT $6[0m  [["rent", 2900], ["address", "17 Park Ave, Maplewood, NJ"], ["taxes", 14552], ["latitude", "40.723917"], ["longitude", "-74.275822"], ["LIMIT", 1]]
+  [1m[35m (8.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (82.8ms)[0m  [1m[32mINSERT INTO "listings" ("address", "rent", "taxes", "latitude", "longitude", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["address", "17 Park Ave, Maplewood, NJ"], ["rent", 2900], ["taxes", 14552], ["latitude", "40.723917"], ["longitude", "-74.275822"], ["created_at", "2017-09-28 20:48:57.455931"], ["updated_at", "2017-09-28 20:48:57.455931"]]
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUserListing Load (5.7ms)[0m  [1m[34mSELECT "user_listings".* FROM "user_listings"[0m
+  [1m[35m (2.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (5.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (2.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mListing Load (11.5ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (24.8ms)[0m  [1m[32mINSERT INTO "user_listings" ("user_id", "listing_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["listing_id", 2], ["created_at", "2017-09-28 20:48:58.140777"], ["updated_at", "2017-09-28 20:48:58.140777"]]
+  [1m[35m (9.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 1130ms (Views: 6.3ms | ActiveRecord: 161.3ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 16:49:25 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (15.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mListing Load (3.6ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 2]]
+Completed 200 OK in 522ms (Views: 207.0ms | ActiveRecord: 19.5ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:49:26 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (7.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 155ms (Views: 43.6ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 16:49:36 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mListing Load (2.4ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 2]]
+Completed 200 OK in 654ms (Views: 462.0ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:49:37 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 197ms (Views: 51.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 16:49:49 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (16.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mListing Load (67.7ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 2]]
+Completed 200 OK in 1344ms (Views: 949.9ms | ActiveRecord: 85.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:49:51 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 343ms (Views: 192.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 16:51:03 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (3.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (2.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mListing Load (43.0ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 2]]
+Completed 200 OK in 1321ms (Views: 842.9ms | ActiveRecord: 48.3ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:51:05 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 162ms (Views: 88.7ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:51:50 -0400
+Processing by Api::V1::UsersController#save_financials as JSON
+  Parameters: {"average_annual_income"=>"300000", "credit_score"=>"560", "assets"=>"2555", "total_debt"=>"2555", "user"=>{"average_annual_income"=>"300000", "credit_score"=>"560", "assets"=>"2555", "total_debt"=>"2555"}}
+  [1m[36mUser Load (4.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (2.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (70.8ms)[0m  [1m[33mUPDATE "users" SET "assets" = $1, "average_annual_income" = $2, "credit_score" = $3, "total_debt" = $4, "updated_at" = $5 WHERE "users"."id" = $6[0m  [["assets", "2555"], ["average_annual_income", "300000"], ["credit_score", "560"], ["total_debt", "2555"], ["updated_at", "2017-09-28 20:51:50.613779"], ["id", 2]]
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 559ms (Views: 43.3ms | ActiveRecord: 84.8ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 16:51:59 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (14.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mListing Load (173.6ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 2]]
+Completed 200 OK in 912ms (Views: 416.2ms | ActiveRecord: 188.4ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:52:00 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 294ms (Views: 146.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/api/v1/listings/17%20Park%20Ave,%20Maplewood,%20NJ" for 127.0.0.1 at 2017-09-28 16:52:20 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"17 Park Ave, Maplewood, NJ"}
+Started GET "/api/v1/listings/17%20Park%20Ave,%20Maplewood,%20NJ" for 127.0.0.1 at 2017-09-28 16:52:23 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"17 Park Ave, Maplewood, NJ"}
+Completed 200 OK in 12542ms (Views: 438.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 10812ms (Views: 252.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:52:39 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (39.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 517ms (Views: 209.1ms | ActiveRecord: 39.3ms)
+
+
+Started POST "/api/v1/users" for 127.0.0.1 at 2017-09-28 16:53:19 -0400
+Processing by Api::V1::UsersController#create as JSON
+  Parameters: {"name"=>"Sho", "username"=>"Sho@sho.com", "password"=>"[FILTERED]", "user"=>{"name"=>"Sho", "username"=>"Sho@sho.com"}}
+  [1m[36mUser Load (3.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (2.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (217.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Sho"], ["username", "Sho@sho.com"], ["password_digest", "$2a$10$XTZk5RYNwOPSUNxWSJL7L.XNFLNajz6DqPMPm/4S3lIfi6OeUHn/W"], ["created_at", "2017-09-28 20:53:19.865540"], ["updated_at", "2017-09-28 20:53:19.865540"]]
+  [1m[35m (7.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 746ms (Views: 39.1ms | ActiveRecord: 230.1ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 16:53:21 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (2.5ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 293ms (Views: 120.9ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:53:21 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 105ms (Views: 26.8ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:54:40 -0400
+Processing by Api::V1::UsersController#save_financials as JSON
+  Parameters: {"average_annual_income"=>"75000", "credit_score"=>"777", "assets"=>"100000", "total_debt"=>"0", "user"=>{"average_annual_income"=>"75000", "credit_score"=>"777", "assets"=>"100000", "total_debt"=>"0"}}
+  [1m[36mUser Load (3.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (2.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (77.4ms)[0m  [1m[33mUPDATE "users" SET "assets" = $1, "average_annual_income" = $2, "credit_score" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["assets", "100000"], ["average_annual_income", "75000"], ["credit_score", "777"], ["updated_at", "2017-09-28 20:54:40.720706"], ["id", 3]]
+  [1m[35m (28.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (50.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 627ms (Views: 97.0ms | ActiveRecord: 161.6ms)
+
+
+Started GET "/api/v1/listings/1%20Main%20Street,%20Edgewater,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 16:55:16 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1 Main Street, Edgewater, NJ, United States"}
+Completed 200 OK in 4218ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/1%20Main%20St" for 127.0.0.1 at 2017-09-28 16:55:29 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"1 Main St"}
+Completed 500 Internal Server Error in 1466ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:86:in `split_address'
+app/controllers/api/v1/listings_controller.rb:7:in `get_listing'
+Started GET "/api/v1/listings/4%20Merrimac,%20Irvine,%20CA,%20United%20States" for 127.0.0.1 at 2017-09-28 16:56:20 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"4 Merrimac, Irvine, CA, United States"}
+Completed 200 OK in 5227ms (Views: 230.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:56:26 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 202ms (Views: 113.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 16:59:58 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (8.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (2.9ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 492ms (Views: 239.1ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 16:59:59 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 71ms (Views: 32.4ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:00:31 -0400
+Processing by Api::V1::UsersController#save_financials as JSON
+  Parameters: {"average_annual_income"=>"200000", "credit_score"=>"620", "assets"=>"120000", "total_debt"=>"0", "user"=>{"average_annual_income"=>"200000", "credit_score"=>"620", "assets"=>"120000", "total_debt"=>"0"}}
+  [1m[36mUser Load (4.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (2.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (4.0ms)[0m  [1m[33mUPDATE "users" SET "assets" = $1, "average_annual_income" = $2, "credit_score" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["assets", "120000"], ["average_annual_income", "200000"], ["credit_score", "620"], ["updated_at", "2017-09-28 21:00:32.307703"], ["id", 3]]
+  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 713ms (Views: 140.6ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/api/v1/listings/4%20Merrimac,%20Irvine,%20CA,%20United%20States" for 127.0.0.1 at 2017-09-28 17:00:37 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"4 Merrimac, Irvine, CA, United States"}
+Completed 200 OK in 5496ms (Views: 210.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:00:43 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (36.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 219ms (Views: 126.6ms | ActiveRecord: 36.6ms)
+
+
+Started GET "/api/v1/listings/47%20Fabriano,%20Irvine,%20CA" for 127.0.0.1 at 2017-09-28 17:02:33 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"47 Fabriano, Irvine, CA"}
+Completed 200 OK in 14205ms (Views: 1295.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:02:48 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 432ms (Views: 360.9ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/api/v1/listings/41%20Oregon,%20Irvine,%20CA" for 127.0.0.1 at 2017-09-28 17:03:32 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"41 Oregon, Irvine, CA"}
+Completed 200 OK in 9099ms (Views: 237.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:03:41 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 292ms (Views: 82.8ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 17:09:07 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (335.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (134.6ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 3059ms (Views: 510.1ms | ActiveRecord: 471.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:09:15 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (12.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 105ms (Views: 53.8ms | ActiveRecord: 12.6ms)
+
+
+Started POST "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:09:55 -0400
+Processing by Api::V1::UsersController#save_financials as JSON
+  Parameters: {"average_annual_income"=>"500000", "credit_score"=>"500", "assets"=>"23000", "total_debt"=>"34000", "user"=>{"average_annual_income"=>"500000", "credit_score"=>"500", "assets"=>"23000", "total_debt"=>"34000"}}
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (55.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (170.4ms)[0m  [1m[33mUPDATE "users" SET "assets" = $1, "average_annual_income" = $2, "credit_score" = $3, "total_debt" = $4, "updated_at" = $5 WHERE "users"."id" = $6[0m  [["assets", "23000"], ["average_annual_income", "500000"], ["credit_score", "500"], ["total_debt", "34000"], ["updated_at", "2017-09-28 21:09:56.055038"], ["id", 3]]
+  [1m[35m (748.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (31.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 1785ms (Views: 51.0ms | ActiveRecord: 1008.0ms)
+
+
+Started GET "/api/v1/listings/554%205th%20Avenue,%20Brooklyn,%20NY,%20United%20States" for 127.0.0.1 at 2017-09-28 17:10:17 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"554 5th Avenue, Brooklyn, NY, United States"}
+Completed 500 Internal Server Error in 1108ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:10:in `get_listing'
+Started GET "/api/v1/listings/10%20Greenwich%20Street,%20New%20York,%20NY,%20United%20States" for 127.0.0.1 at 2017-09-28 17:10:34 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Greenwich Street, New York, NY, United States"}
+Completed 200 OK in 15240ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/295%20Greenwich%20St%20APT%2010N,%20New%20York,%20NY" for 127.0.0.1 at 2017-09-28 17:11:01 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"295 Greenwich St APT 10N, New York, NY"}
+Completed 200 OK in 10763ms (Views: 556.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:11:12 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 344ms (Views: 127.4ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/api/v1/user/listings" for 127.0.0.1 at 2017-09-28 17:18:53 -0400
+Processing by Api::V1::UserListingsController#create as JSON
+  Parameters: {"0"=>{"zpid"=>"31493585", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/295-Greenwich-St-APT-10N-New-York-NY-10007/31493585_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/295-Greenwich-St-APT-10N-New-York-NY-10007/31493585_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/31493585_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/31493585_zpid/"}, "address"=>{"street"=>"295 Greenwich St APT 10N", "zipcode"=>"10007", "city"=>"New York", "state"=>"NY", "latitude"=>"40.716064", "longitude"=>"-74.01081"}, "FIPScounty"=>"36061", "useCode"=>"MultiFamily2To4", "taxAssessmentYear"=>"2016", "taxAssessment"=>"175061.0", "yearBuilt"=>"1987", "finishedSqFt"=>"430", "bathrooms"=>"1.0", "bedrooms"=>"0", "zestimate"=>{"amount"=>"689133", "last_updated"=>"09/28/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-3383", "valuationRange"=>{"low"=>"647785", "high"=>"723590"}, "percentile"=>"0"}, "rentzestimate"=>{"amount"=>"2850", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-43", "valuationRange"=>{"low"=>"2508", "high"=>"3534"}}, "localRealEstate"=>{"region"=>{"name"=>"Tribeca", "id"=>"270951", "type"=>"neighborhood", "zindexValue"=>"3,164,600", "links"=>{"overview"=>"http://www.zillow.com/local-info/NY-New-York/Tribeca/r_270951/", "forSaleByOwner"=>"http://www.zillow.com/tribeca-manhattan-new-york-ny/fsbo/", "forSale"=>"http://www.zillow.com/tribeca-manhattan-new-york-ny/"}}}}, "1"=>[{"score"=>"10.0", "zpid"=>"80013601", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/223-W-10th-St-APT-2C-New-York-NY-10014/80013601_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/223-W-10th-St-APT-2C-New-York-NY-10014/80013601_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/80013601_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/80013601_zpid/"}, "address"=>{"street"=>"223 W 10th St APT 2C", "zipcode"=>"10014", "city"=>"New York", "state"=>"NY", "latitude"=>"40.734062", "longitude"=>"-74.005119"}, "taxAssessmentYear"=>"2016", "taxAssessment"=>"102604.0", "yearBuilt"=>"1910", "finishedSqFt"=>"402", "bathrooms"=>"1.0", "bedrooms"=>"1", "lastSoldDate"=>"01/11/2017", "lastSoldPrice"=>"967337", "zestimate"=>{"amount"=>"742686", "last_updated"=>"09/28/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"52154", "valuationRange"=>{"low"=>"96549", "high"=>"846662"}, "percentile"=>"4"}, "rentzestimate"=>{"amount"=>"3095", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"151", "valuationRange"=>{"low"=>"2414", "high"=>"3776"}}, "localRealEstate"=>{"region"=>{"name"=>"West Village", "id"=>"270964", "type"=>"neighborhood", "links"=>{"overview"=>"http://www.zillow.com/local-info/NY-New-York/West-Village/r_270964/", "forSaleByOwner"=>"http://www.zillow.com/west-village-manhattan-new-york-ny/fsbo/", "forSale"=>"http://www.zillow.com/west-village-manhattan-new-york-ny/"}}}}, {"score"=>"7.0", "zpid"=>"80010120", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/5-Weehawken-St-APT-1A-New-York-NY-10014/80010120_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/5-Weehawken-St-APT-1A-New-York-NY-10014/80010120_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/80010120_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/80010120_zpid/"}, "address"=>{"street"=>"5 Weehawken St APT 1A", "zipcode"=>"10014", "city"=>"New York", "state"=>"NY", "latitude"=>"40.733025", "longitude"=>"-74.009621"}, "taxAssessmentYear"=>"2016", "taxAssessment"=>"135767.0", "yearBuilt"=>"1900", "finishedSqFt"=>"404", "bathrooms"=>"1.0", "bedrooms"=>"0", "lastSoldDate"=>"12/28/2016", "lastSoldPrice"=>"560037", "zestimate"=>{"amount"=>"769128", "last_updated"=>"09/28/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-58937", "valuationRange"=>{"low"=>"699906", "high"=>"846041"}, "percentile"=>"5"}, "rentzestimate"=>{"amount"=>"3500", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"222", "valuationRange"=>{"low"=>"2590", "high"=>"4095"}}, "localRealEstate"=>{"region"=>{"name"=>"West Village", "id"=>"270964", "type"=>"neighborhood", "links"=>{"overview"=>"http://www.zillow.com/local-info/NY-New-York/West-Village/r_270964/", "forSaleByOwner"=>"http://www.zillow.com/west-village-manhattan-new-york-ny/fsbo/", "forSale"=>"http://www.zillow.com/west-village-manhattan-new-york-ny/"}}}}, {"score"=>"14.0", "zpid"=>"117458842", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/84-Bedford-St-APT-1S-New-York-NY-10014/117458842_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/84-Bedford-St-APT-1S-New-York-NY-10014/117458842_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/117458842_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/117458842_zpid/"}, "address"=>{"street"=>"84 Bedford St APT 1S", "zipcode"=>"10014", "city"=>"New York", "state"=>"NY", "latitude"=>"40.732006", "longitude"=>"-74.005012"}, "taxAssessmentYear"=>"2016", "taxAssessment"=>"483300.0", "yearBuilt"=>"1900", "lotSizeSqFt"=>"1526", "finishedSqFt"=>"720", "bathrooms"=>"1.0", "bedrooms"=>"1", "totalRooms"=>"3", "lastSoldDate"=>"05/30/2017", "lastSoldPrice"=>"1325000", "zestimate"=>{"amount"=>"1330261", "last_updated"=>"09/28/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-1687", "valuationRange"=>{"low"=>"1104117", "high"=>"1636221"}, "percentile"=>"40"}, "rentzestimate"=>{"amount"=>"4350", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"421", "valuationRange"=>{"low"=>"3176", "high"=>"5481"}}, "localRealEstate"=>{"region"=>{"name"=>"West Village", "id"=>"270964", "type"=>"neighborhood", "links"=>{"overview"=>"http://www.zillow.com/local-info/NY-New-York/West-Village/r_270964/", "forSaleByOwner"=>"http://www.zillow.com/west-village-manhattan-new-york-ny/fsbo/", "forSale"=>"http://www.zillow.com/west-village-manhattan-new-york-ny/"}}}}, {"score"=>"4.0", "zpid"=>"80009838", "links"=>{"homedetails"=>"http://www.zillow.com/homedetails/1-Wall-Street-Ct-APT-1002-New-York-NY-10005/80009838_zpid/", "graphsanddata"=>"http://www.zillow.com/homedetails/1-Wall-Street-Ct-APT-1002-New-York-NY-10005/80009838_zpid/#charts-and-data", "mapthishome"=>"http://www.zillow.com/homes/80009838_zpid/", "comparables"=>"http://www.zillow.com/homes/comps/80009838_zpid/"}, "address"=>{"street"=>"1 Wall Street Ct APT 1002", "zipcode"=>"10005", "city"=>"New York", "state"=>"NY", "latitude"=>"40.706001", "longitude"=>"-74.007271"}, "taxAssessmentYear"=>"2016", "taxAssessment"=>"134014.0", "yearBuilt"=>"1904", "finishedSqFt"=>"443", "bathrooms"=>"1.0", "bedrooms"=>"0", "totalRooms"=>"2", "lastSoldDate"=>"06/15/2017", "lastSoldPrice"=>"615000", "zestimate"=>{"amount"=>"615271", "last_updated"=>"09/28/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"-2290", "valuationRange"=>{"low"=>"584507", "high"=>"646035"}, "percentile"=>"2"}, "rentzestimate"=>{"amount"=>"2850", "last_updated"=>"09/26/2017", "oneWeekChange"=>{"deprecated"=>"true"}, "valueChange"=>"150", "valuationRange"=>{"low"=>"2479", "high"=>"3392"}}, "localRealEstate"=>{"region"=>{"name"=>"Financial District", "id"=>"270835", "type"=>"neighborhood", "zindexValue"=>"1,121,700", "links"=>{"overview"=>"http://www.zillow.com/local-info/NY-New-York/Financial-District/r_270835/", "forSaleByOwner"=>"http://www.zillow.com/financial-district-manhattan-new-york-ny/fsbo/", "forSale"=>"http://www.zillow.com/financial-district-manhattan-new-york-ny/"}}}}], "2"=>2850, "3"=>"tax data not available", "data"=>"", "history"=>{"match"=>{"path"=>"/listing/:address", "url"=>"/listing/295 Greenwich St APT 10N, New York, NY", "isExact"=>true, "params"=>{"address"=>"295 Greenwich St APT 10N, New York, NY"}}, "location"=>{"pathname"=>"/listing/295 Greenwich St APT 10N, New York, NY", "search"=>"", "hash"=>"", "key"=>"t0ma6t"}, "history"=>{"length"=>50, "action"=>"POP", "location"=>{"pathname"=>"/listing/295 Greenwich St APT 10N, New York, NY", "search"=>"", "hash"=>"", "key"=>"t0ma6t"}}}, "user_listing"=>{}}
+Completed 500 Internal Server Error in 324ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/api/v1/user_listings_controller.rb:8:in `create'
+Started GET "/api/v1/listings/295%20Greenwich%20St%20APT%2010N,%20New%20York,%20NY" for 127.0.0.1 at 2017-09-28 17:22:41 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"295 Greenwich St APT 10N, New York, NY"}
+Completed 200 OK in 14214ms (Views: 226.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:23:01 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (4.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 224ms (Views: 33.4ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/api/v1/listings/295%20Greenwich%20St%20APT%2010N,%20New%20York,%20NY" for 127.0.0.1 at 2017-09-28 17:26:15 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"295 Greenwich St APT 10N, New York, NY"}
+Completed 200 OK in 8080ms (Views: 212.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:26:24 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 340ms (Views: 84.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 17:32:28 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (14.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (2.5ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 459ms (Views: 166.8ms | ActiveRecord: 17.7ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:32:29 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (54.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 173ms (Views: 69.8ms | ActiveRecord: 54.7ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 17:33:48 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (2.8ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 709ms (Views: 414.6ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:33:49 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 280ms (Views: 180.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 17:43:42 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (90.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (39.6ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 991ms (Views: 581.4ms | ActiveRecord: 131.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:43:44 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (31.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 212ms (Views: 26.3ms | ActiveRecord: 31.5ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 17:44:52 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (63.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (5.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 761ms (Views: 485.8ms | ActiveRecord: 69.1ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:47:50 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 171ms (Views: 74.8ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 17:48:49 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (24.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (3.6ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 672ms (Views: 358.8ms | ActiveRecord: 29.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:52:42 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (24.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 445ms (Views: 74.7ms | ActiveRecord: 24.5ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 17:53:34 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (6.9ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 782ms (Views: 554.7ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 17:55:26 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (409.4ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 1463ms (Views: 503.6ms | ActiveRecord: 413.4ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:55:28 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 260ms (Views: 121.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 17:58:13 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (23.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (2.9ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 520ms (Views: 250.6ms | ActiveRecord: 26.6ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:58:14 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 223ms (Views: 153.3ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 17:58:37 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (6.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (3.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 300ms (Views: 164.1ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 17:58:38 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 187ms (Views: 29.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 18:00:02 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (7.0ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 261ms (Views: 170.7ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 18:00:02 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 314ms (Views: 40.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 18:00:09 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 500 Internal Server Error in 45472ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:55:in `get_sort_details'
+app/controllers/api/v1/listings_controller.rb:26:in `get_listing'
+Started GET "/api/v1/listings/10%20Vauxhall%20Road%20Union%20NJ%20United%20States" for 127.0.0.1 at 2017-09-28 18:01:32 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road Union NJ United States"}
+Completed 500 Internal Server Error in 943ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:86:in `split_address'
+app/controllers/api/v1/listings_controller.rb:7:in `get_listing'
+Started GET "/api/v1/listings/10%20Vauxhall%20Road%20Union%20NJ%20United%20States" for 127.0.0.1 at 2017-09-28 18:01:40 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road Union NJ United States"}
+Completed 500 Internal Server Error in 430ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  
+app/controllers/api/v1/listings_controller.rb:86:in `split_address'
+app/controllers/api/v1/listings_controller.rb:7:in `get_listing'
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20East%20Brunswick,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 18:01:52 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, East Brunswick, NJ, United States"}
+Completed 200 OK in 28923ms (Views: 211.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/listings/10%20Vauxhall%20Road,%20Union,%20NJ,%20United%20States" for 127.0.0.1 at 2017-09-28 18:03:07 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"10 Vauxhall Road, Union, NJ, United States"}
+Completed 200 OK in 6895ms (Views: 194.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 18:03:14 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (20.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 108ms (Views: 32.4ms | ActiveRecord: 20.0ms)
+
+
+Started GET "/api/v1/me" for 127.0.0.1 at 2017-09-28 18:03:23 -0400
+Processing by Api::V1::UsersController#me as JSON
+  [1m[36mUser Load (33.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (7.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mListing Load (42.9ms)[0m  [1m[34mSELECT "listings".* FROM "listings" INNER JOIN "user_listings" ON "listings"."id" = "user_listings"."listing_id" WHERE "user_listings"."user_id" = $1[0m  [["user_id", 3]]
+Completed 200 OK in 559ms (Views: 281.9ms | ActiveRecord: 84.5ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 18:03:23 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (6.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 90ms (Views: 23.1ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/api/v1/listings/22%20Rosedale%20Ave,%20Millburn,%20NJ" for 127.0.0.1 at 2017-09-28 18:03:32 -0400
+Processing by Api::V1::ListingsController#get_listing as */*
+  Parameters: {"address"=>"22 Rosedale Ave, Millburn, NJ"}
+Completed 200 OK in 6247ms (Views: 231.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/user/financials" for 127.0.0.1 at 2017-09-28 18:03:39 -0400
+Processing by Api::V1::UsersController#get_financials as JSON
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 202ms (Views: 33.0ms | ActiveRecord: 2.3ms)
+
+
