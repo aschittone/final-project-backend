@@ -23,7 +23,8 @@ class Api::V1::UsersController < ApplicationController
 
   def save_financials
     current_user.update(assets: params[:assets], average_annual_income: params[:average_annual_income], credit_score: params[:credit_score], total_debt: params[:total_debt])
-    render json: [{msg: "Financial Profile Saved", user: current_user}]
+    user_listings = current_user.listings
+    render json: [current_user, user_listings]
   end
 
   
