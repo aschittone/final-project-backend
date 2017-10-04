@@ -2,7 +2,7 @@ class Api::V1::ListingsController < ApplicationController
 
 	def get_listing
 		url_address = split_address(listing_params["address"])	
-		response = Excon.get("http://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz1fzorn263gr_9abc1&address=#{url_address[0]}&citystatezip=#{url_address[1]}%2C+#{url_address[2]}&rentzestimate=true")
+		response = Excon.get("https://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz1fzorn263gr_9abc1&address=#{url_address[0]}&citystatezip=#{url_address[1]}%2C+#{url_address[2]}&rentzestimate=true")
 		response_hash = Hash.from_xml(response.body)
 		if response_hash["searchresults"]["response"]["results"]["result"].class == Array && response_hash["searchresults"]["response"]["results"]["result"][0]["address"]["street"] == response_hash["searchresults"]["response"]["results"]["result"][1]["address"]["street"]
 			z_property_id = response_hash["searchresults"]["response"]["results"]["result"][0]["zpid"]
@@ -35,7 +35,7 @@ class Api::V1::ListingsController < ApplicationController
 
 	def get_sort_details(z_property_id, original_results)
 		rent_estimate = nil
-		comps = Excon.get("http://www.zillow.com/webservice/GetDeepComps.htm?zws-id=X1-ZWz1fzorn263gr_9abc1&zpid=#{z_property_id}&count=4&rentzestimate=true")
+		comps = Excon.get("https://www.zillow.com/webservice/GetDeepComps.htm?zws-id=X1-ZWz1fzorn263gr_9abc1&zpid=#{z_property_id}&count=4&rentzestimate=true")
 		comps_hash = Hash.from_xml(comps.body)
 		if original_results["searchresults"]["response"]["results"]["result"].class == Hash && original_results["searchresults"]["response"]["results"]["result"]["rentzestimate"] == nil
 			count = 0
