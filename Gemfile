@@ -27,7 +27,6 @@ gem 'jwt'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 gem 'httparty', '~> 0.15.6'
-gem 'nokogiri', '~> 1.6', '>= 1.6.6.2'
 gem 'json', '~> 1.8', '>= 1.8.3'
 
 group :development, :test do
