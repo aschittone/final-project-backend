@@ -8,7 +8,11 @@ class Api::V1::UserListingsController < ApplicationController
 			lng = params["0"]["address"]["longitude"]
 			lat = params["0"]["address"]["latitude"]
 			rent = params["2"]
-			taxes = JSON.parse(params["3"]["data"]["body"])["property"][0]["assessment"]["tax"]["taxamt"]
+			if params["3"] == "tax data not available"
+				taxes = 0
+			else 
+				taxes = JSON.parse(params["3"]["data"]["body"])["property"][0]["assessment"]["tax"]["taxamt"]	
+			end
 			@listing = Listing.find_or_create_by(rent: rent, address: address, taxes: taxes, latitude: lat, longitude: lng)
 			user_listings = UserListing.all.select { |user_listing| user_listing.listing_id == @listing.id && user_listing.user_id == current_user.id}
 			if user_listings.length < 1 && @listing.save

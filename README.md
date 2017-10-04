@@ -1,41 +1,27 @@
-# README
-Base Outline:
 
-- pull listings from zillow to anylize
-- then enter in how they would buy the property, either with cash or a mortgage
-- enter in a rent amount (suggest average monthly rent for the area)
-- calculate what their monthly net will be (after suggested expenses for the property)
+Overview
 
-Database tables:
+  This is an API used to provide data to the front end of the-bottom-line.herokuapp.com. When a property is searched on the front end, the request will be received here and send back data to the front end to be displayed. This API uses a couple other APIs as well to gather data, see below for details.  
 
-Users
- - username
- - password_digest
-Listings (need to make fetch requests everytine "saved" section is loaded)
- - number
- - street
- - town
- - state
- - zip code 
-UserListings (listings that users save- join table)
+  Languages & tools
 
-Models:
+    Ruby on Rails 
+      - Rails uses as server side framework 
+      - React Router 
 
-Controllers:
+    Database
+      - PostgreSQL
 
-API:
-- zillow web services ID: X1-ZWz190zy8wb37v_4vl2o
-- need to convert xml to json in backend to use (no json option available from zillow)
+		External APIs
+			- Zillow API uses for valuation data and comparable sales
+			- Onboard API used for property tax and prior sale data
 
-MVP:
-- User can enter in a property address 
-- Call ZILLOW API to get property info and perform calucaltions to see rental cashflow
-- Need selection for cash or mortgage 
-- Display results
+		Key Gems
+			- bcrypt (user authentication)
+			- jwt (user authentication)
+			- excon (for fetch to external APIs)
 
-Stretch Features:
-- Users will be able to save listings ot "track" them while they're on the market
-- add capability for seasoning rentals, or just different options
+
 
 
 
