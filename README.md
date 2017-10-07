@@ -6,20 +6,20 @@
 # Languages & tools
 
   Ruby on Rails 
-    - Rails uses as server side framework 
-    - React Router 
+      - Rails uses as server side framework 
+      - React Router 
 
   Database
-    - PostgreSQL
+      - PostgreSQL
 
   External APIs
-     - Zillow API uses for valuation data and comparable sales
-     - Onboard API used for property tax and prior sale data
+      - Zillow API uses for valuation data and comparable sales
+      - Onboard API used for property tax and prior sale data
 
-  Key Gems
-     - bcrypt (user authentication)
-     - jwt (user authentication)
-     - excon (for fetch to external APIs)
+   Key Gems
+      - bcrypt (user authentication)
+      - jwt (user authentication)
+      - excon (for fetch to external APIs)
 
 
 
