@@ -9,7 +9,7 @@ class Api::V1::AuthController < ApplicationController
       token = issue_token(payload)
       render json: {msg: "Success", user: user, jwt: token}
 		else
-			render json: {msg: 'Username or Password in correct'}
+			render json: {msg: 'Username or Password incorrect'}
     end
   end
 end
