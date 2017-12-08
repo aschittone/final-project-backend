@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20170917194706) do
     t.datetime "updated_at", null: false
   end
 
+  # Join table for users and listings 
   create_table "user_listings", force: :cascade do |t|
     t.integer "user_id"
     t.integer "listing_id"

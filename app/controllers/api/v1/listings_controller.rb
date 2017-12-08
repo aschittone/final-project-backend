@@ -1,5 +1,6 @@
 class Api::V1::ListingsController < ApplicationController
 
+	# This function picks up the initial search request, and responds to client
 	def get_listing
 		url_address = split_address(listing_params["address"])	
 		response = Excon.get("https://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz1fzorn263gr_9abc1&address=#{url_address[0]}&citystatezip=#{url_address[1]}%2C+#{url_address[2]}&rentzestimate=true")
@@ -24,7 +25,6 @@ class Api::V1::ListingsController < ApplicationController
 				result << "#{street}, #{city}, #{state}"
 				render json: result
 			else
-	
 				z_property_id = response_hash["searchresults"]["response"]["results"]["result"]["zpid"]
 				result = get_sort_details(z_property_id, response_hash)
 				final_result = get_details(result)
@@ -33,6 +33,7 @@ class Api::V1::ListingsController < ApplicationController
 		end
 	end
 
+	# This makes the additional API call for property comps 
 	def get_sort_details(z_property_id, original_results)
 		rent_estimate = nil
 		comps = Excon.get("https://www.zillow.com/webservice/GetDeepComps.htm?zws-id=X1-ZWz1fzorn263gr_9abc1&zpid=#{z_property_id}&count=4&rentzestimate=true")
@@ -69,6 +70,7 @@ class Api::V1::ListingsController < ApplicationController
 			end
 	end
 
+	# This makes an additional API call to Onboard for property data
 	def get_details(results)
 		# another fetch to get property details
 		full_street = results[0]["address"]["street"]
@@ -82,7 +84,7 @@ class Api::V1::ListingsController < ApplicationController
 		end
 	end
 
-
+	# splits the address for insertion into URL for API call
 	def split_address(address)
 		split_address = address.split(", ")
 		street_address = split_address[0].gsub(/ /, '+')
@@ -97,6 +99,7 @@ class Api::V1::ListingsController < ApplicationController
 
 	private 
 
+	# permits the listing params as they come in from the front end
 	def listing_params
 		params.permit(:address)
 	end

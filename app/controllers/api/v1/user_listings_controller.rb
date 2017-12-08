@@ -1,5 +1,7 @@
 class Api::V1::UserListingsController < ApplicationController
 	
+	# This function creates a UserListing once a user clicks the SAVE LISTING button
+	# Render's three different messages, depending on different scenarios
 	def create
 		if current_user == "hello from current User"
 			render json: {msg: 'You must be logged in to save'}
@@ -24,6 +26,7 @@ class Api::V1::UserListingsController < ApplicationController
 		end
 	end
 
+	# This deletes a saved listing, once the button is clicked
 	def destroy 
 		listing = Listing.find_by(address: params[:address])
 		user_listing = UserListing.find_by(listing_id: listing.id)
