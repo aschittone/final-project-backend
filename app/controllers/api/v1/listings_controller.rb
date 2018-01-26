@@ -3,10 +3,15 @@ class Api::V1::ListingsController < ApplicationController
 	# This function picks up the initial search request, and responds to client
 	def get_listing
 		url_address = split_address(listing_params["address"])	
+
+		# initial request to Zillow API for property details
 		response = Excon.get("https://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz1fzorn263gr_9abc1&address=#{url_address[0]}&citystatezip=#{url_address[1]}%2C+#{url_address[2]}&rentzestimate=true")
 		response_hash = Hash.from_xml(response.body)
+
 		if response_hash["searchresults"]["response"]["results"]["result"].class == Array && response_hash["searchresults"]["response"]["results"]["result"][0]["address"]["street"] == response_hash["searchresults"]["response"]["results"]["result"][1]["address"]["street"]
 			z_property_id = response_hash["searchresults"]["response"]["results"]["result"][0]["zpid"]
+			
+			# second API request to ZILLOW API for similar sales
 			result = get_sort_details(z_property_id, response_hash)
 			final_result = get_details(result)
 			render json: final_result
@@ -27,17 +32,23 @@ class Api::V1::ListingsController < ApplicationController
 			else
 				z_property_id = response_hash["searchresults"]["response"]["results"]["result"]["zpid"]
 				result = get_sort_details(z_property_id, response_hash)
+			byebug
 				final_result = get_details(result)
+
 				render json: final_result
 			end
 		end
+
 	end
 
 	# This makes the additional API call for property comps 
 	def get_sort_details(z_property_id, original_results)
 		rent_estimate = nil
+
+		# second API request to ZILLOW API for similar sales
 		comps = Excon.get("https://www.zillow.com/webservice/GetDeepComps.htm?zws-id=X1-ZWz1fzorn263gr_9abc1&zpid=#{z_property_id}&count=4&rentzestimate=true")
 		comps_hash = Hash.from_xml(comps.body)
+		
 		if original_results["searchresults"]["response"]["results"]["result"].class == Hash && original_results["searchresults"]["response"]["results"]["result"]["rentzestimate"] == nil
 			count = 0
 			sum = 0		
@@ -47,6 +58,7 @@ class Api::V1::ListingsController < ApplicationController
 					count += 1
 				end
 			end
+			# averaging the rent estimate of the comparable sales, to determine overall average rent
 			rent_estimate = sum / count
 		elsif original_results["searchresults"]["response"]["results"]["result"].class == Array 
 			rent_estimate = original_results["searchresults"]["response"]["results"]["result"][0]["rentzestimate"]["amount"].to_i	
@@ -76,7 +88,8 @@ class Api::V1::ListingsController < ApplicationController
 		full_street = results[0]["address"]["street"]
 		city = results[0]["address"]["city"]
 		state = results[0]["address"]["state"]
-		data = Excon.get("https://search.onboard-apis.com/propertyapi/v1.0.0/allevents/detail?address1=#{full_street}&address2=#{city} #{state}", headers: {Accept: 'application/json',APIKey: 'f137e17eb6b1e71808a39da5419874bb'})
+		data = Excon.get("https://search.onboard-apis.com/propertyapi/v1.0.0/allevents/detail?address1=#{full_street}&address2=#{city} #{state}", headers: {Accept: 'application/json', APIKey: '4b3edefe539e240a5cf870431986a752'})
+		byebug
 		if JSON.parse(data[:body])["status"]["msg"] == "Geocoder Results Address Not Identified." || JSON.parse(data[:body])["status"]["msg"] == "SuccessWithoutResult"
 			return results << "tax data not available"
 		else			
@@ -96,6 +109,18 @@ class Api::V1::ListingsController < ApplicationController
 			return [street_address, city, state]
 		end
 	end
+
+
+
+	def get_info
+		info = Excon.get('https://s3.amazonaws.com/simple-fractal-recruiting/companies.csv')
+		info2 = Excon.get('https://s3.amazonaws.com/simple-fractal-recruiting/score-records.csv')
+		byebug
+	end
+
+
+
+
 
 	private 
 
