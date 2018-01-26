@@ -110,18 +110,6 @@ class Api::V1::ListingsController < ApplicationController
 		end
 	end
 
-
-
-	def get_info
-		info = Excon.get('https://s3.amazonaws.com/simple-fractal-recruiting/companies.csv')
-		info2 = Excon.get('https://s3.amazonaws.com/simple-fractal-recruiting/score-records.csv')
-		byebug
-	end
-
-
-
-
-
 	private 
 
 	# permits the listing params as they come in from the front end

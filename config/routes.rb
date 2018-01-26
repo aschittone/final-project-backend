@@ -10,7 +10,6 @@ Rails.application.routes.draw do
       delete '/user/listings/:address', to: 'user_listings#destroy' #user can delete a saved listing
       get '/user/financials', to: 'users#get_financials' #get financial data
       post '/user/financials', to: 'users#save_financials' #save financial data
-      get '/listings/:address', to: 'listings#get_info'
     end
   end
 end
