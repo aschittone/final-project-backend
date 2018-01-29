@@ -32,7 +32,6 @@ class Api::V1::ListingsController < ApplicationController
 			else
 				z_property_id = response_hash["searchresults"]["response"]["results"]["result"]["zpid"]
 				result = get_sort_details(z_property_id, response_hash)
-			byebug
 				final_result = get_details(result)
 
 				render json: final_result
@@ -89,7 +88,6 @@ class Api::V1::ListingsController < ApplicationController
 		city = results[0]["address"]["city"]
 		state = results[0]["address"]["state"]
 		data = Excon.get("https://search.onboard-apis.com/propertyapi/v1.0.0/allevents/detail?address1=#{full_street}&address2=#{city} #{state}", headers: {Accept: 'application/json', APIKey: '4b3edefe539e240a5cf870431986a752'})
-		byebug
 		if JSON.parse(data[:body])["status"]["msg"] == "Geocoder Results Address Not Identified." || JSON.parse(data[:body])["status"]["msg"] == "SuccessWithoutResult"
 			return results << "tax data not available"
 		else			
